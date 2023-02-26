@@ -1,0 +1,43 @@
+﻿Tugas Sec 2
+* Memahami Penggunaan Version Control yaitu Git dan Github
+* Soal Prioritas 1 (80)
+1. Buatlah sebuah repository github yang sesuai dengan namaKelas_namaKalian. contohnya
+→ 
+  
+
+2. Buatlah folder yang berurutan dan diberi nama sesuai dengan nama soal yang kalian kerjakan. contoh penamaan
+→ 
+  
+
+3. Pada setiap folder akan berisikan sub folder lagi 
+→
+  
+
+4. melakukan commit
+→ 
+  
+
+
+
+* Soal Prioritas 2 (20)
+1. Buatlah branch baru pada github yang kalian buat
+→ 
+  
+
+2. Lakukan Pull Request pada branch tersebut sehingga akan menambah hal baru pada branch main/master
+→
+  
+
+
+
+* Soal Eksplorasi (20)
+1. Dengan project terserah kalian, praktikkan salah satu workflow serderhana dan buktikan dengan Screenshoot. github flow/gitflow/trunkbase
+→ 
+2. Lakukan management konflik pada github
+→ 
+3. Lakukan code review pada github yang kalian kumpulkan
+→ 
+
+
+* REFERENSI
+* Materi pada PPT di LMS
