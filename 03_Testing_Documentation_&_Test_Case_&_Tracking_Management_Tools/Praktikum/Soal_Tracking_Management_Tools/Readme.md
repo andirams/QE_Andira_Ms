@@ -34,3 +34,8 @@ Jira sendiri merupakan salah satu alat bantu yang berfungsi untuk pelacakan bug,
 
 - Epic
   -> Jenis issue untuk melakukan pengelompokan task
+
+REFERENSI
+
+- PPT Alta
+- Video Penjelasan Alta
