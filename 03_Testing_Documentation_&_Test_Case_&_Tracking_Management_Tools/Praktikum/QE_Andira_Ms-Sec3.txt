@@ -1,0 +1,47 @@
+﻿Tugas Sec 3
+* Soal Testing Documentation
+* Soal Prioritas 1 (80)
+1. Buatlah Test Case sebanyak mungkin pada fitur login, pilih produk sampai pilih metode pembayaran dari https://www.sepulsa.com/ dengan menggunakan format laporan yang sudah ditentukan. Letakkan kumpulan test case tersebut dalam bentuk file excel.
+→ Teradapat di link sheets ini
+Test Case Sepulsa_Sec3_Andira Mahendra S.xlsx
+
+
+* Soal Prioritas 2 (20)
+1. Buatlah test case untuk aplikasi  https://www.sepulsa.com/ untuk fitur register, lihat artikel dan lihat riwayat transaksi dengan menggunakan format laporan yang sudah ditentukan. Letakkan kumpulan test case tersebut dalam bentuk file excel.
+→ Teradapat di link sheets ini
+Test Case Sepulsa_Sec3_Andira Mahendra S.xlsx
+
+
+* Soal Eksplorasi (20)
+1. Lakukan pengujian non fungsional untuk aplikasi https://www.sepulsa.com/ dengan menggunakan Lighthouse. Referensi mengenai Lighthouse dapat dicek di link berikut. Kriteria untuk pengujian non fungsional adalah sebagai berikut:
+1. Terdapat pengujian non fungsional untuk tampilan di web dan mobile.
+2. Terdapat screenshot hasil pengujian untuk 2 platform (web dan mobile) beserta penjelasan dari hasil pengujian yang telah dilakukan.
+3. Hasil pengujian ditulis dalam google docs.
+→
+* Pengujian Non-fungsional pada Mobile:
+  
+
+Pengujian versi mobile pada sepulsa.com memiliki performances di angka 23 dan berwarna merah yang berarti untuk performanya masih slow, sehingga performanya harus diperbaiki agar menjadi lebih baik lagi. Kemudian accessibility serta seo yang bernilai 97 dan 100 yang berarti memiliki poin yang sangat baik (fast) sehingga sudah sesuai dengan harapan, dan best practice di angka 75 dan berwarna kuning yang berarti average atau normal.
+
+
+* Pengujian Non-fungsional pada Web:
+  
+
+Untuk pengujian non fungsional pada website sepulsa.com memiliki performances di angka 85 dan berwarna kuning yang berarti normal, mungkin hanya perlu diperbaiki sedikit, kemudian accessibility serta seo yang bernilai 97 dan 100 yang berarti poin tersebut sudah menandakan sangat baik (fast) sehingga sudah sesuai dengan harapan, dan best practice di angka 83 dan berwarna kuning yang berarti average atau normal.
+
+
+* Soal Test Case Management Tools
+1. Implementasikan penggunaan test case management tools untuk aplikasi https://www.sepulsa.com/ dengan kriteria sebagai berikut:
+1. Menggunakan TestRail sebagai test case management tools.
+2. Terdapat 3 fitur yang dilakukan testing yaitu login, pilih produk dan pilih metode pembayaran.
+3. Setiap test case terdapat case positif dan negatif.
+→   
+  
+
+  
+
+  
+
+* Soal Tracking Management Tools
+1. Buatlah simulasi terjadinya bugs pada suatu feature (Story, Task, Subtask). Deskripsikan Feature dan Bugs (minimal 2 untuk bugs) dari simulasi yang dibuat pada Jira. Lampirkan screenshot step-step pekerjaan berupa docs atau pdf.
+→
