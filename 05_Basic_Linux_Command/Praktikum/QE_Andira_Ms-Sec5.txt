@@ -70,3 +70,9 @@ Berikut adalah hasil command shell script yang sudah saya buat, command - comman
 * touch : membuat hapusFileIni.txt
 * pwd : mengetahui path direktori
 * rm : menghapus file yang baru dibuat
+
+REFERENSI :
+
+PPT Alta
+Video Penjelasan Alta
+https://www.hostinger.co.id/tutorial/perintah-dasar-linux#:~:text=GB%2C%20dan%20TB.-,5.%20cat%20command,isi%20file%20dalam%20output%20standar.
