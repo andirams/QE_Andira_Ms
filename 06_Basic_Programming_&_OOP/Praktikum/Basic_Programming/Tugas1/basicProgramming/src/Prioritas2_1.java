@@ -3,16 +3,20 @@ class Prioritas2_1 {
         String[] huruf = { "X", "Y", "Z" };
 
         // TODO: complete this code
+        int count = 1;
         for (int i = 1; i <= n; i++) {
             System.out.println();
             for (int j = 1; j <= n; j++) {
-                if (j % 2 == 0) {
+
+                if (count % 2 == 0) {
                     System.out.print(huruf[2] + " ");
-                } else if (j % 3 == 0) {
+                } else if (count % 3 == 0) {
                     System.out.print(huruf[0] + " ");
-                } else {
+                } else if (count % 2 == 1) {
                     System.out.print(huruf[1] + " ");
                 }
+
+                count++;
             }
         }
     }
