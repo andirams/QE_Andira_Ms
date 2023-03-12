@@ -8,10 +8,10 @@ class Prioritas2_1 {
             System.out.println();
             for (int j = 1; j <= n; j++) {
 
-                if (count % 2 == 0) {
-                    System.out.print(huruf[2] + " ");
-                } else if (count % 3 == 0) {
+                if (count % 3 == 0) {
                     System.out.print(huruf[0] + " ");
+                } else if (count % 2 == 0) {
+                    System.out.print(huruf[2] + " ");
                 } else if (count % 2 == 1) {
                     System.out.print(huruf[1] + " ");
                 }
@@ -19,6 +19,7 @@ class Prioritas2_1 {
                 count++;
             }
         }
+
     }
 
     public static void main(String[] args) {
