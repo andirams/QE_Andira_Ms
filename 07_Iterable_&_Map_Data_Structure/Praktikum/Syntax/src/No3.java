@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class No3 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int intArr [] = {2, 5, 9, 11};
+        int intArr[] = { 2, 5, 9, 11 };
 
         System.out.print("Masukkan Target : ");
         int Target = in.nextInt();
