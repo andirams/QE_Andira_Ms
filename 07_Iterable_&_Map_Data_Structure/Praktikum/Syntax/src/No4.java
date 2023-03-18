@@ -1,11 +1,7 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class No4 {
     public static void main(String[] args) {
-        // int intArr[] = { 1, 2, 3, 4 }; // edit array
-        // int intArrSec[] = { 1, 3, 5, 10, 16 }; // edit array2
-
         ArrayList<Integer> intArr = new ArrayList<Integer>();
         ArrayList<Integer> intArrSec = new ArrayList<Integer>();
 
