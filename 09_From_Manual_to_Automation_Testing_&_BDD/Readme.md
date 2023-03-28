@@ -66,6 +66,47 @@ Tidak cocok untuk :
 5. Maintenance
    Review dan melakukan perubahan jika diperlukan
 
+# Behaviour Driven Development
+
+BDD adalah proses software development yagn menerapkan penulisan test case sebelum developer menuliskan production codenya dengan fokus yang berbeda dengan TDD. Tim tester akan menuliskan scenario dari perspektif pengguna menggunakan bahasa yang mudah dipahami.
+
+## BDD Format
+
+Feature file ditulis menggunakan bahasa Gherkin dengan format Bahasa Inggris yang mudah dipahami.
+
+Urutannya:
+
+1. User Stroy
+
+2. As a [X]
+   I want [Y]
+   So that [Z]
+
+3. Scenario
+
+4. Given
+   When
+   Then
+
+## Cucumber
+
+Cucumber adalah tools yang mendukung BDD dengan membaca ketentuan yang dapat dieksekusi menggunakan teks biasa.
+
+## BDD dengan Cucumber
+
+- Langkah - langkah
+  1. Write Story : dengan bahasa Gherkin (Given, When, Then)
+  2. Map Steps to Java : Konfigurasi langkah script dan validasi
+  3. Configure Stories : Kombinasikan stories dan langkah - langkah
+  4. Run Stories : Mengeksekusi stories di IDE menggunakan maven
+  5. View Reports : Melihat hasil laporan testing yang dilakukan sesuai stories yang ditulis
+
+## Yang perlu disiapkan
+
+- Java
+- Maven
+- IDE
+
 REFERNSI :
 
 - Video materi Alta
