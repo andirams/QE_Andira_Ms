@@ -1,0 +1,77 @@
+﻿Tugas Sec 9
+* Soal From Manual to Automation Testing
+* Tugas
+1. Jelaskan jenis-jenis dari performance testing (minimal: 3).
+→ Jenis jenis performance testing adalah:
+* Load Testing
+load test ini tahapan pertamanya adalah menentukan target load. Load testing umumnya dipakai untuk acara musiman yang sifatnya selalu bertambah seiring berjalannya waktu, salah satu contohnya adalah sistem penjualan mudik lebaran, semakin dekat dengan acara yang ada semakin tinggi pula trafficnya.
+
+
+* Spike Testing
+Spike testing bertujuan untuk menguji kapasitas sistem dalam menangani lalu lintas yang sesuai dengan ekspektasi. Seperti namanya, "spike" yang berarti lonjakan, maka beban yang diberikan pada sistem akan meningkat secara tiba-tiba dalam waktu yang sama. Contoh dari spike testing adalah pengujian sistem pengisian KRS pada kampus yang menerima lonjakan pengguna dalam waktu yang tidak terduga.
+
+
+* Stress Testing
+Teknik pengujian performa yang dilakukan untuk mengetahui batas kemampuan sistem dengan membanjiri lalu lintas hingga sistem mengalami crash, disebut dengan pengujian "stress testing". Salah satu alasan utama untuk melakukan pengujian ini adalah untuk mencegah terjadinya kegagalan sistem atau "system down".
+
+
+* Soak Testing
+Pengujian "soak testing" umumnya dilakukan dengan beban atau load yang stabil namun dalam waktu yang cukup lama. Tujuannya adalah untuk menganalisis dan mengevaluasi kestabilan sistem yang digunakan dalam jangka waktu panjang. Salah satu tujuan utama dari pengujian ini adalah untuk mengetahui apakah sistem akan mengalami masalah seperti "memory leaks" selama penggunaan dalam jangka waktu yang lama.
+
+
+* Volume Testing
+Pengujian "volume testing" digunakan untuk mengevaluasi performa sistem pada kondisi dengan volume data yang besar. Pengujian ini bertujuan untuk mengamati kebiasaan sistem ketika data yang disimpan terus bertambah hingga jumlahnya sangat besar. Contoh dari aplikasi pengujian ini adalah pada sistem yang menyimpan data transaksi secara terus menerus untuk dibuat menjadi rekapitulasi data transaksi dalam jumlah yang besar.
+
+
+2. Sebutkan dan jelaskan tools yang dapat digunakan untuk melakukan performance testing (minimal: 3).
+→ Beberapa contohnya adalah:
+* JMeter
+JMeter adalah aplikasi open source berbasis Java yang dapat dipergunakan untuk performance test. Bagi seorang QA Engineer jMeter bisa digunakan untuk melakukan load/stress testing Web Application, FTP Application dan Database server test. jMeter bisa dijalankan dengan 2 cara, dengan GUI atau non-GUI (Command line).
+
+
+* Locust
+Locust adalah tools open source load testing yang memungkinkan ada mendefinisikan perilaku pengguna menggunakan Python code. Locust mendukung proses testing yang dijalankan atau didistribusikan melalui beberapa mesin sekaligus. oleh karena itu dapat digunakan untuk mensimulasikan jutaan pengguna secara bersamaan.
+
+
+* Gatling
+Gatling adalah sebuah powerful open-source load testing tools. Gatling disiapkan untuk load testing yang berkelanjutan dan terintegrasi dengan jalur development Anda. Gatling termasuk web recorder and colorful reports. Gatling jugam merupakan tools open-source performance testing, yang menggunakan  Scala, Akka dan Netty yang akan membantu membuat dan menjalankan high performance dan mudah maintain pada saat lokal dan server test.
+
+
+* LoadRunner
+Tools ini adalah alat bisnis yang dikembangkan oleh Micro Focus untuk menguji kinerja aplikasi bisnis berbasis web yang kompleks. LoadRunner mendukung berbagai teknologi seperti HTML5, Java, .NET, SAP, dan banyak lagi. LoadRunner berfitur lengkap sehingga pengguna dapat menguji aplikasi dalam berbagai skenario. 
+
+
+* Soal Behavior Driven Development (BDD)
+* Soal Prioritas 1 (80)
+1. Lakukan testing pada aplikasi https://www.linkedin.com/ dengan langkah-langkah sebagai berikut:
+1. Buatlah scenario test sebanyak mungkin menggunakan format BDD pada fitur-fitur halaman utama https://www.linkedin.com/ .
+2. Buatlah project baru menggunakan intelliJ.
+3. Buatlah file feature Cucumber
+4. Buatlah class runner dan step
+5. Buatlah class steps yang berisi method-method yang dijalankan dalam scenario test.
+6. Jalankan class runner.
+7. Tampilkan report HTML dari Cucumber.
+
+
+* Soal Prioritas 2 (20)
+1. Lakukan testing pada aplikasi https://www.sepulsa.com/ dengan langkah-langkah sebagai berikut:
+1. Buatlah scenario test menggunakan format BDD pada fitur login, pilih produk dan pilih metode pembayaran.
+2. Buatlah project baru menggunakan intelliJ
+3. Buatlah file feature Cucumber
+4. Buatlah class runner dan step
+5. Buatlah class steps yang berisi method-method yang dijalankan dalam scenario test.
+6. Jalankan class runner.
+7. Tampilkan report HTML dari Cucumber
+
+
+* Soal Eksplorasi (20)
+2. Lakukan testing pada aplikasi https://www.sepulsa.com/ dengan langkah-langkah sebagai berikut:
+1. Menggunakan cypress sebagai tools untuk melakukan testing. Referensi penggunaan BDD dengan cypress dapat dilihat disini.
+2. Buatlah scenario test menggunakan format BDD pada fitur login, pilih produk dan pilih metode pembayaran.
+3. Tampilkan hasil testing dengan menggunakan cypress.
+
+
+REFERNSI : 
+* https://sysctl.id/jenis-performance-test/
+* https://hariatylumbantobing.medium.com/performance-testing-pengertian-fokus-jenis-dan-contoh-7f1aaebbff8f
+* Video materi Alta
