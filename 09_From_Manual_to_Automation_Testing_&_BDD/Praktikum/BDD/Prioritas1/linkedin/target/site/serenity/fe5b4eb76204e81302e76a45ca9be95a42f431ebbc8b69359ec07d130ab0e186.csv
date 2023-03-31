@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login","As a user i have to able to success login","SUCCESS","2023-03-31T21:19:24.2650446+07:00[Asia/Bangkok]","0.0","0.43"
+"Post","As a user i have to able to post with photo on the main page","SUCCESS","2023-03-31T21:19:24.7304324+07:00[Asia/Bangkok]","0.0","0.06"
+"Register","As a user i have to able to success register","SUCCESS","2023-03-31T21:19:24.817451+07:00[Asia/Bangkok]","0.0","0.04"
