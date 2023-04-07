@@ -15,6 +15,8 @@ public class LoginSteps {
     @Steps
     HomePage homePage;
 
+    ////positive
+
     @Given("I am on the Sepulsa login page")
     public void onTheLoginPage() {
         loginPage.openPage();
@@ -36,7 +38,7 @@ public class LoginSteps {
         loginPage.inputPassword("mahendra13");
     }
 
-    @And("I click on the Login button")
+    @And("I click on the submit button")
     public void clickSubmitButton() {
         loginPage.clickSubmitButton();
     }
@@ -44,6 +46,18 @@ public class LoginSteps {
     @Then("I should be redirected to my Sepulsa account dashboard")
     public void validateLoginSuccess() {
         loginPage.validateLoginSuccess();
+    }
+
+    ////negative
+
+    @And("I enter incorrect password")
+    public void inputIncorrectPassword() {
+        loginPage.inputPassword("mahendra");
+    }
+
+    @Then("I should see the error message")
+    public void credentialAlert() {
+        loginPage.incorrectCredentialAlert();
     }
 
 }

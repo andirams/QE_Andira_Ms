@@ -23,9 +23,9 @@ public class LoginPage extends PageObject {
         return By.id("submit_login");
     }
 
-    // private By messageNotification() {
-    //     return By.id("message-id");
-    // }
+    private By alertNotification() {
+        return By.id("alert_description");
+    }
 
     @Step
     public void openPage() {
@@ -59,7 +59,12 @@ public class LoginPage extends PageObject {
 
     @Step
     public boolean validateLoginSuccess() {
-        return $(loginButton()).isDisabled();
+        return $(loginButton()).isDisplayed();
+    }
+
+    @Step
+    public boolean incorrectCredentialAlert() {
+        return $(alertNotification()).isDisplayed();
     }
 
 }

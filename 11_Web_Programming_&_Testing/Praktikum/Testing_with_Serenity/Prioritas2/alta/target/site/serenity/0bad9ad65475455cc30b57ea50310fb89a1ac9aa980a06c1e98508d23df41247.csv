@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Select Product ListrikPLN","Input correct nomor meter and correct nomor handphone","SUCCESS","2023-04-08T02:15:31.7961121+07:00[Asia/Bangkok]","0.0","8.0"
+"Select Product ListrikPLN","Input incorrect nomor meter and correct nomor handphone","SUCCESS","2023-04-08T02:15:40.5002504+07:00[Asia/Bangkok]","0.0","14.4"
