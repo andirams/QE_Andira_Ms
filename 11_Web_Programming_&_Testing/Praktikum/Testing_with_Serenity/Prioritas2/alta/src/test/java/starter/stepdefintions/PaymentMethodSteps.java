@@ -53,6 +53,15 @@ public class PaymentMethodSteps {
 
     //// Negative
 
+    @Given("I already login with correct account and go to the Listrik PLN Page")
+    public void signedInAndGoToListrikPLNPage() {
+        loginPage.clickLoginButton();
+        loginPage.inputEmail("averilprimayuda@gmail.com");
+        loginPage.inputPassword("Saidentident-123");
+        loginPage.clickSubmitButton();
+
+    }
+
     @When("I do not select any payment method and click Bayar Sekarang button")
     public void clickBayarSekarang() {
         listrikplnPage.clickBayarSekarang();

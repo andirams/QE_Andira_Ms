@@ -1,3 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Select Payment Method","Select Payment Method Dana After Choosing Product","FAILURE","2023-04-08T22:30:03.9497362+07:00[Asia/Bangkok]","0.0","22.99"
-"Select Payment Method","Not choosing a Payment Method After Selecting a Product","FAILURE","2023-04-08T22:30:27.8887505+07:00[Asia/Bangkok]","0.0","19.14"
+"Select Payment Method","Select Payment Method Dana After Choosing Product","SUCCESS","2023-04-09T01:36:25.1940973+07:00[Asia/Bangkok]","0.0","13.86"

@@ -1,4 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login to Sepulsa Account","Login with correct credentials","SUCCESS","2023-04-08T22:29:22.5889546+07:00[Asia/Bangkok]","0.0","26.3"
-"Login to Sepulsa Account","Login with incorrect password","SUCCESS","2023-04-08T22:29:49.8825047+07:00[Asia/Bangkok]","0.0","13.05"
-"Select Product ListrikPLN","Input correct nomor meter and correct nomor handphone","SUCCESS","2023-04-08T22:30:47.9871534+07:00[Asia/Bangkok]","0.0","21.47"
+"Login to Sepulsa Account","Login with correct credentials","SUCCESS","2023-04-09T01:36:05.5018479+07:00[Asia/Bangkok]","0.0","10.18"
+"Select Payment Method","Select Payment Method Dana After Choosing Product","SUCCESS","2023-04-09T01:36:25.1940973+07:00[Asia/Bangkok]","0.0","13.86"

@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Login to Sepulsa Account","Login with incorrect password","SUCCESS","2023-04-09T01:36:16.4508238+07:00[Asia/Bangkok]","0.0","7.96"
+"Select Product ListrikPLN","Input correct nomor meter and correct nomor handphone","SUCCESS","2023-04-09T01:36:39.8962316+07:00[Asia/Bangkok]","0.0","7.11"
+"Select Product ListrikPLN","Input incorrect nomor meter and correct nomor handphone","SUCCESS","2023-04-09T01:36:47.7217659+07:00[Asia/Bangkok]","0.0","7.93"

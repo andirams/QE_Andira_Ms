@@ -7,7 +7,7 @@ Feature: Select Payment Method
         Then I select the payment method with DANA
 
     Scenario: Not choosing a Payment Method After Selecting a Product
-        Given I am on the Listrik PLN Page
+        Given I already login with correct account and go to the Listrik PLN Page
         And I select a product and proceeds to checkout
         And I choose the Nominal of Listrik PLN
         When I do not select any payment method and click Bayar Sekarang button

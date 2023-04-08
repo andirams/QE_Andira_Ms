@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Checkout","User cannot checkout without providing postal code","SUCCESS","2023-04-05T21:28:37.880729+07:00[Asia/Bangkok]","0.0","0.21"
-"Logout after checkout","Logout after completing checkout","SUCCESS","2023-04-05T21:28:38.1407925+07:00[Asia/Bangkok]","0.0","0.13"
+"Checkout","User cannot checkout without providing postal code","SUCCESS","2023-04-09T02:05:17.4987855+07:00[Asia/Bangkok]","0.0","0.12"
+"Logout after checkout","Logout after completing checkout","SUCCESS","2023-04-09T02:05:17.6328142+07:00[Asia/Bangkok]","0.0","0.06"
