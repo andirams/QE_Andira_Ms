@@ -30,12 +30,12 @@ public class LoginSteps {
 
     @And("I enter correct email")
     public void inputEmail() {
-        loginPage.inputEmail("andiramahendra13@gmail.com");
+        loginPage.inputEmail("andirams13@student.ub.ac.id");
     }
 
     @And("I enter correct password")
     public void inputPassword() {
-        loginPage.inputPassword("mahendra13");
+        loginPage.inputPassword("hudancok13");
     }
 
     @And("I click on the submit button")

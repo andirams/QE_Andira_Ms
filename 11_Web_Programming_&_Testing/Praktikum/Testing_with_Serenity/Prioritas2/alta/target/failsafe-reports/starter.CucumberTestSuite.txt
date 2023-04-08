@@ -1,4 +1,44 @@
 -------------------------------------------------------------------------------
 Test set: starter.CucumberTestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 73.718 s - in starter.CucumberTestSuite
+Tests run: 6, Failures: 0, Errors: 3, Skipped: 0, Time elapsed: 133.71 s <<< FAILURE! - in starter.CucumberTestSuite
+Select Payment Method.Select Payment Method Dana After Choosing Product  Time elapsed: 23.931 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.id: label DANA to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#label\ DANA"}
+  (Session info: chrome=112.0.5615.49)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [93dff82af30c6a21e1f65331254841da, findElement {using=id, value=label DANA}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.49, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54528}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54528/devtoo..., se:cdpVersion: 112.0.5615.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 93dff82af30c6a21e1f65331254841da
+
+Select Payment Method.Not choosing a Payment Method After Selecting a Product  Time elapsed: 20.103 s  <<< ERROR!
+net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException: Expected enabled element was not enabled
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.id: product_type_2 to be enabled (tried for 5 second(s) with 100 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#product_type_2"}
+  (Session info: chrome=112.0.5615.49)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e215d2d9f07b9e03db677093c14a1a70, findElement {using=id, value=product_type_2}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.49, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54576}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54576/devtoo..., se:cdpVersion: 112.0.5615.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e215d2d9f07b9e03db677093c14a1a70
+
+Select Product ListrikPLN.Input incorrect nomor meter and correct nomor handphone  Time elapsed: 13.326 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//p[contains(text(),'Nomor salah / terblokir / expired')]"}
+  (Session info: chrome=112.0.5615.49)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [341bbeb16a338e90ac6fa37ece0c5a30, findElement {using=xpath, value=//p[contains(text(),'Nomor salah / terblokir / expired')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.49, chrome: {chromedriverVersion: 111.0.5563.64 (c710e93d5b63..., userDataDir: C:\Users\WINDOW~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54666}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:54666/devtoo..., se:cdpVersion: 112.0.5615.49, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 341bbeb16a338e90ac6fa37ece0c5a30
+

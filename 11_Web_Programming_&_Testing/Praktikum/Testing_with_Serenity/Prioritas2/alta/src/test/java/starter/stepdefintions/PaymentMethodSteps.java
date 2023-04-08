@@ -22,6 +22,8 @@ public class PaymentMethodSteps {
     @Steps
     SelectProductSteps selectProductSteps;
 
+    //// Positive
+
     @Given("I am on the Listrik PLN Page")
     public void onTheListrikPLNPage() {
         loginPage.openPage();
@@ -49,4 +51,15 @@ public class PaymentMethodSteps {
         listrikplnPage.choosePaymentMethod();
     }
 
+    //// Negative
+
+    @When("I do not select any payment method and click Bayar Sekarang button")
+    public void clickBayarSekarang() {
+        listrikplnPage.clickBayarSekarang();
+    }
+
+    @Then("I should see a reminder message")
+    public void validateReminderMessage() {
+        listrikplnPage.validateReminderMessage();
+    }
 }

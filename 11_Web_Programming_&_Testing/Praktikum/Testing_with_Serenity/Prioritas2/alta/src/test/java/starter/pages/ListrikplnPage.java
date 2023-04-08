@@ -34,6 +34,14 @@ public class ListrikplnPage extends PageObject {
         return By.id("label DANA");
     }
 
+    private By reminderMessage() {
+        return By.id("error_select_payment");
+    }
+
+    private By bayarSekarang() {
+        return By.id("submit_payment");
+    }
+
     @Step
     public void inputNomorMeter(String nomorMeter) {
         $(nomorMeterField()).type(nomorMeter);
@@ -67,6 +75,16 @@ public class ListrikplnPage extends PageObject {
     @Step
     public void choosePaymentMethod() {
         $(paymentMethod()).click();
+    }
+
+    @Step
+    public void validateReminderMessage() {
+        $(reminderMessage()).isDisplayed();
+    }
+
+    @Step
+    public void clickBayarSekarang() {
+        $(bayarSekarang()).click();
     }
 
 }

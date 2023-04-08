@@ -152,7 +152,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 08-04-2023 02:15</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 08-04-2023 22:30</span>
     <br style="clear:left"/>
 </div>
 
@@ -205,9 +205,9 @@
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-check-circle-fill success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='bi bi-x-circle-fill failure-icon fa-2x' title='FAILURE'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Select Payment Method Dana After Choosing Product
+                                <span class="failing-color">Select Payment Method Dana After Choosing Product
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -224,36 +224,81 @@
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Element should be enabled exception: Expected enabled element was not enabled</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall"
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="bi bi-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>starter.pages.ListrikplnPage.choosePaymentMethod(ListrikplnPage.java:77)<br />starter.stepdefintions.PaymentMethodSteps.selectPaymentMethod(PaymentMethodSteps.java:51)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java:66)<br />io.cucumber.java.Invoker.invoke(Invoker.java:24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java:84)<br />io.cucumber.core.runner.TestStep.run(TestStep.java:56)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java:84)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java:75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:130)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:130)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java:137)<br />io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:330)<br />io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java:51)<br /></pre>
+                    </div>
+
+                    <h4>
+                        Caused by: org.openqa.selenium.TimeoutException
+                    </h4>
+                    <div>
+                            <pre>Expected condition failed: waiting for By.id: label DANA to be enabled (tried for 5 second(s) with 100 milliseconds interval)</pre>
+                        <pre>starter.pages.ListrikplnPage.choosePaymentMethod(ListrikplnPage.java :77)<br />starter.stepdefintions.PaymentMethodSteps.selectPaymentMethod(PaymentMethodSteps.java :51)<br />io.cucumber.java.Invoker.doInvoke(Invoker.java :66)<br />io.cucumber.java.Invoker.invoke(Invoker.java :24)<br />io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java :47)<br />io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java :29)<br />io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java :66)<br />io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java :63)<br />io.cucumber.core.runner.TestStep.executeStep(TestStep.java :84)<br />io.cucumber.core.runner.TestStep.run(TestStep.java :56)<br />io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java :51)<br />io.cucumber.core.runner.TestCase.run(TestCase.java :84)<br />io.cucumber.core.runner.Runner.runPickle(Runner.java :75)<br />io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java :130)<br />io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java :23)<br />io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java :130)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :144)<br />io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java :28)<br />io.cucumber.junit.FeatureRunner.run(FeatureRunner.java :137)<br />io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java :330)<br />io.cucumber.junit.CucumberSerenityBaseRunner.runChild(CucumberSerenityBaseRunner.java :51)<br /></pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                    <div class="panel-body">
+                        <a href="pagesource10042268128138637741.html" target="_blank" class="btn btn-info">HTML Source</a>
+                    </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="491d82c1a2f9ea68d158f21f331126793a99d2e5eb5896c025c29514d90c5073.png" title=" Given I am on the Listrik PLN Page" width="929"/>
-                <img src="491d82c1a2f9ea68d158f21f331126793a99d2e5eb5896c025c29514d90c5073.png" title=" Open page" width="929"/>
-                <img src="491d82c1a2f9ea68d158f21f331126793a99d2e5eb5896c025c29514d90c5073.png" title=" Click login button" width="929"/>
+                <img src="c3644045e7123a23df41376f5b7c7d6a5bdf1bf2f083f5aca80e1cc704b41cea.png" title=" Given I am on the Listrik PLN Page" width="929"/>
+                <img src="c3644045e7123a23df41376f5b7c7d6a5bdf1bf2f083f5aca80e1cc704b41cea.png" title=" Open page" width="929"/>
+                <img src="c3644045e7123a23df41376f5b7c7d6a5bdf1bf2f083f5aca80e1cc704b41cea.png" title=" Click login button" width="929"/>
                 <img src="385bcadc27da1b2c4766a46f92f1b5bdc4e85f5718254a7d06d292689290915e.png" title=" Click login button (completed)" width="929"/>
                 <img src="385bcadc27da1b2c4766a46f92f1b5bdc4e85f5718254a7d06d292689290915e.png" title=" Input email: andiramahendra13@gmail.com" width="929"/>
-                <img src="62bfbc58d0a3cf98911fa32bacb90745309717bdcdc236e1392ab42ed8eb396d.png" title=" Input email: andiramahendra13@gmail.com (completed)" width="929"/>
-                <img src="62bfbc58d0a3cf98911fa32bacb90745309717bdcdc236e1392ab42ed8eb396d.png" title=" Input password: mahendra13" width="929"/>
-                <img src="48754bdd9f39ad3cf6127e3408e1f5df390d7634f8aba5d10105d1a293b6b343.png" title=" Input password: mahendra13 (completed)" width="929"/>
-                <img src="48754bdd9f39ad3cf6127e3408e1f5df390d7634f8aba5d10105d1a293b6b343.png" title=" Click submit button" width="929"/>
-                <img src="f9c7f18a81ad0ef623aaa4187b2db9d0d58378ff1c7d4bbd09c181bd95c00037.png" title=" Click submit button (completed)" width="929"/>
-                <img src="f9c7f18a81ad0ef623aaa4187b2db9d0d58378ff1c7d4bbd09c181bd95c00037.png" title=" Given I am on the Listrik PLN Page (completed)" width="929"/>
-                <img src="ad5a89d7ab2fc590990186705a01f97a2ce1cfa02af9d2478a2e2a2382b129fe.png" title=" When I select a product and proceeds to checkout" width="929"/>
-                <img src="ad5a89d7ab2fc590990186705a01f97a2ce1cfa02af9d2478a2e2a2382b129fe.png" title=" Click product item" width="929"/>
+                <img src="980a84b8f729bb054cc984719a879888ad6da615e8e693fa5e7e7dc334c7292c.png" title=" Input email: andiramahendra13@gmail.com (completed)" width="929"/>
+                <img src="980a84b8f729bb054cc984719a879888ad6da615e8e693fa5e7e7dc334c7292c.png" title=" Input password: mahendra13" width="929"/>
+                <img src="8ee9872c522ce60334030b0b110b6e305274f0d9b02e3a0734e13cf04b1de4e7.png" title=" Input password: mahendra13 (completed)" width="929"/>
+                <img src="8ee9872c522ce60334030b0b110b6e305274f0d9b02e3a0734e13cf04b1de4e7.png" title=" Click submit button" width="929"/>
+                <img src="b8fc3ff2acd8b0afa297e3dcfdff7912405c01b7647c9d4effebc1148349016c.png" title=" Click submit button (completed)" width="929"/>
+                <img src="b8fc3ff2acd8b0afa297e3dcfdff7912405c01b7647c9d4effebc1148349016c.png" title=" Given I am on the Listrik PLN Page (completed)" width="929"/>
+                <img src="aaf96a156a059a0dc65b7446d23ab1ed4aef846c3d2382ac2d60345c1f680b97.png" title=" When I select a product and proceeds to checkout" width="929"/>
+                <img src="aaf96a156a059a0dc65b7446d23ab1ed4aef846c3d2382ac2d60345c1f680b97.png" title=" Click product item" width="929"/>
+                <img src="3917f2973185b37c72e17f2efbf58943e603b90047f108e01d2ca91e8aea47eb.png" title=" Click product item (completed)" width="929"/>
                 <img src="afdfd134018c7bd46e64fc9f3f0b03ab9fd258ee61e0685be12ecf8c34efd327.png" title=" Input nomor meter: 56709803730" width="929"/>
-                <img src="4a695f56ea283d2c03fad31706b237ab6c67db0dd4d1c52f5090954e16cbe7a1.png" title=" Input nomor meter: 56709803730 (completed)" width="929"/>
-                <img src="4a695f56ea283d2c03fad31706b237ab6c67db0dd4d1c52f5090954e16cbe7a1.png" title=" Input nomor handphone: 085791349382" width="929"/>
-                <img src="216830a98013e2eaf4b79913b1d8f7f0116475fdd5d452a3b559710ccb51629d.png" title=" Input nomor handphone: 085791349382 (completed)" width="929"/>
-                <img src="216830a98013e2eaf4b79913b1d8f7f0116475fdd5d452a3b559710ccb51629d.png" title=" When i click on the lanjutkan button" width="929"/>
-                <img src="216830a98013e2eaf4b79913b1d8f7f0116475fdd5d452a3b559710ccb51629d.png" title=" Click lanjutkan button" width="929"/>
-                <img src="84c253905cb5bea1bb67ba9859fdbdbb21f5375a01c656f8827c91a346724dbc.png" title=" Click lanjutkan button (completed)" width="929"/>
-                <img src="84c253905cb5bea1bb67ba9859fdbdbb21f5375a01c656f8827c91a346724dbc.png" title=" When i click on the lanjutkan button (completed)" width="929"/>
-                <img src="84c253905cb5bea1bb67ba9859fdbdbb21f5375a01c656f8827c91a346724dbc.png" title=" When I select a product and proceeds to checkout (completed)" width="929"/>
-                <img src="4bce6ed0eb7e5a75108426a501d69081b6439279bfbbbedf350d5970d73372ae.png" title=" And I choose the Nominal of Listrik PLN" width="929"/>
-                <img src="4bce6ed0eb7e5a75108426a501d69081b6439279bfbbbedf350d5970d73372ae.png" title=" Choose nominal" width="929"/>
-                <img src="4bce6ed0eb7e5a75108426a501d69081b6439279bfbbbedf350d5970d73372ae.png" title=" And I choose the Nominal of Listrik PLN (completed)" width="929"/>
-                <img src="3660cb04bd847a0b511fea9ac616d11842c1121b4e81fd2e5ffed8d0a7ba39e2.png" title=" Then I select the payment method with DANA" width="929"/>
-                <img src="3660cb04bd847a0b511fea9ac616d11842c1121b4e81fd2e5ffed8d0a7ba39e2.png" title=" Choose payment method" width="929"/>
-                <img src="3660cb04bd847a0b511fea9ac616d11842c1121b4e81fd2e5ffed8d0a7ba39e2.png" title=" Then I select the payment method with DANA (completed): <span class='success-color'>SUCCESS</span>" width="929"/>
+                <img src="4744d0e19c6217b9042c40d3efd1bdc1a3a51ce704234ff6571c304814baad5f.png" title=" Input nomor meter: 56709803730 (completed)" width="929"/>
+                <img src="4744d0e19c6217b9042c40d3efd1bdc1a3a51ce704234ff6571c304814baad5f.png" title=" Input nomor handphone: 085791349382" width="929"/>
+                <img src="58246e23bad8630d68016a77c51e6793f29f8f9ed8a251b0a05289c4cd2d49d3.png" title=" Input nomor handphone: 085791349382 (completed)" width="929"/>
+                <img src="58246e23bad8630d68016a77c51e6793f29f8f9ed8a251b0a05289c4cd2d49d3.png" title=" When i click on the lanjutkan button" width="929"/>
+                <img src="fc6d36fafe8007977cac8ed7e384a0c8324be072626c76725667b62d24d4c83e.png" title=" Click lanjutkan button" width="929"/>
+                <img src="3343b578d171e1c4bb5ba00d7a95be6e4196c32ed02a53934e922c2a6a5ad46f.png" title=" Click lanjutkan button (completed)" width="929"/>
+                <img src="3343b578d171e1c4bb5ba00d7a95be6e4196c32ed02a53934e922c2a6a5ad46f.png" title=" When i click on the lanjutkan button (completed)" width="929"/>
+                <img src="3343b578d171e1c4bb5ba00d7a95be6e4196c32ed02a53934e922c2a6a5ad46f.png" title=" When I select a product and proceeds to checkout (completed)" width="929"/>
+                <img src="91e293d4520e10b4a186407f85d99ae063763e55432a1643d7d99df17eb02e90.png" title=" And I choose the Nominal of Listrik PLN" width="929"/>
+                <img src="91e293d4520e10b4a186407f85d99ae063763e55432a1643d7d99df17eb02e90.png" title=" Choose nominal" width="929"/>
+                <img src="5d4035de4f3dc15a5360f8c2f347c3ce267d11b91666d11a25baad5f74901bfc.png" title=" Choose nominal (completed)" width="929"/>
+                <img src="5d4035de4f3dc15a5360f8c2f347c3ce267d11b91666d11a25baad5f74901bfc.png" title=" And I choose the Nominal of Listrik PLN (completed)" width="929"/>
+                <img src="5d4035de4f3dc15a5360f8c2f347c3ce267d11b91666d11a25baad5f74901bfc.png" title=" Then I select the payment method with DANA" width="929"/>
+                <img src="135dcd7148d8237d5a7e5a11af358df3cf7aff47b5f4a9206d45c3cc41c6fdaf.png" title=" Choose payment method" width="929"/>
+                <img src="e8b20d82202bbb5ab95df523b8feddfdbd3e5d2ffdea38a4c0e9bf38655ec92b.png" title=" Choose payment method (completed): <span class='failing-color'>FAILURE</span>" width="929"/>
             </div>
         </div>
 
