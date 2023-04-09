@@ -28,8 +28,8 @@ public class PaymentMethodSteps {
     public void onTheListrikPLNPage() {
         loginPage.openPage();
         loginPage.clickLoginButton();
-        loginPage.inputEmail("andiramahendra13@gmail.com");
-        loginPage.inputPassword("mahendra13");
+        loginPage.inputEmail("#correctemail");
+        loginPage.inputPassword("#correctpass");
         loginPage.clickSubmitButton();
     }
 
@@ -56,8 +56,8 @@ public class PaymentMethodSteps {
     @Given("I already login with correct account and go to the Listrik PLN Page")
     public void signedInAndGoToListrikPLNPage() {
         loginPage.clickLoginButton();
-        loginPage.inputEmail("averilprimayuda@gmail.com");
-        loginPage.inputPassword("Saidentident-123");
+        loginPage.inputEmail("#correctemail");
+        loginPage.inputPassword("#correctpass");
         loginPage.clickSubmitButton();
 
     }
