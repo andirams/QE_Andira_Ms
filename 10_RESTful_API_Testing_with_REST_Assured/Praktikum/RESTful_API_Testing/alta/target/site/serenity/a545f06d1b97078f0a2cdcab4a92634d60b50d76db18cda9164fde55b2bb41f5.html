@@ -144,7 +144,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="bi bi-chat-text"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 15-04-2023 23:08</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="bi bi-info-circle"></i></a> Report generated 16-04-2023 11:00</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -250,7 +250,7 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">022ms</span></td>
+                    <td width="100"><span class="top-level-step">013ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -275,7 +275,7 @@
                     </td>
 
                     <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">001ms</span></td>
+                    <td width="100"><span class="nested-group-step"></span></td>
                 </tr>
 
                             </table>
@@ -297,7 +297,7 @@
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
                                style="display:block;">
                                 <span class="top-level-step">
-                                                When I send DELETE HTTP request
+                                                When I send invalid DELETE HTTP request
                                         </span>
                             </a>
                             <span class="evidence">
@@ -306,7 +306,7 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">665ms</span></td>
+                    <td width="100"><span class="top-level-step">650ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -327,7 +327,7 @@
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1-0')"
                                style="display:block;">
                                 <span class="nested-step">
-                                                I send DELETE HTTP request
+                                                I send invalid DELETE HTTP request
                                         </span>
                             </a>
                             <span class="evidence">
@@ -336,7 +336,7 @@
                     </td>
 
                     <td width="130"><span class="nested-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-step">662ms</span></td>
+                    <td width="100"><span class="nested-step">647ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -353,7 +353,7 @@
                     <td class="step-description-column">
                         <div class="step-description">
                                 <span class="nested-group-step">
-                                                I set DELETE api endpoints
+                                                I set DELETE to invalid api endpoints
                                         </span>
                             <span class="evidence">
                                 </span>
@@ -361,7 +361,7 @@
                     </td>
 
                     <td width="130"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">001ms</span></td>
+                    <td width="100"><span class="nested-group-step"></span></td>
                 </tr>
                 <tr class="test-SUCCESS">
 
@@ -375,7 +375,7 @@
                     <td class="step-description-column">
                         <div class="step-description">
                                 <span class="nested-group-step">
-                                                DELETE https://jsonplaceholder.typicode.com/posts/1
+                                                DELETE https://jsonplaceholder.typicode.com/posts
                                         </span>
                             <span class="evidence">
                                         <span class="piece-of-evidence">
@@ -391,13 +391,13 @@
                         <div class="card">
                             <div class="card-body">
                                 <h4>Response</h4>
-                                    <p>URL: https://jsonplaceholder.typicode.com/posts/1</p>
-                                    <p>Status code: 200</p>
+                                    <p>URL: https://jsonplaceholder.typicode.com/posts</p>
+                                    <p>Status code: 404</p>
                                     <p>Content Type: null</p>
                                     <h4>Request Headers</h4>
                                     <pre>Accept=*/*</pre>
                                     <h4>Response Headers</h4>
-                                    <pre>Date: Sat, 15 Apr 2023 16:08:48 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 2<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 993<br>X-Ratelimit-Reset: 1681574965<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: no-cache<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=a6TzSIoc%2Bi8RWSYyQ5Wp18%2BBRl0roEbfMLR1JDr0%2FFx%2FxulRs0SOqSNVD8ShYwQijrdGp83HCA9SkUBGjJ8DYFSN1pjfCC0bnjNX6qC3Pu69CaHojXn3kn6X3rgP51KG4kvvzPFP8j8wHuW%2Bf%2B%2Bg&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 7b857300a9d54021-SIN<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
+                                    <pre>Date: Sun, 16 Apr 2023 04:00:39 GMT<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 2<br>Connection: keep-alive<br>X-Powered-By: Express<br>X-Ratelimit-Limit: 1000<br>X-Ratelimit-Remaining: 995<br>X-Ratelimit-Reset: 1681617694<br>Vary: Origin, Accept-Encoding<br>Access-Control-Allow-Credentials: true<br>Cache-Control: no-cache<br>Pragma: no-cache<br>Expires: -1<br>X-Content-Type-Options: nosniff<br>Etag: W/&quot;2-vyGp6PvFo4RvsFtPoIWeCReyIC8&quot;<br>Via: 1.1 vegur<br>CF-Cache-Status: DYNAMIC<br>Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report\/v3?s=dmplEY7aLp0%2BH92IuJpWs2P%2FVULpGPCo7vZtPVHMAhzaJzDbkYRuye%2FYlunjpFkDibMsqq378%2FhsLasfjfb7wQciBbxcnxJyo2K1Oe%2B2p%2FqV3w%2FSLe6QgE18Gk9lLDia1ZvQtc0vczO%2FdBXltjuS&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>NEL: {&quot;success_fraction&quot;:0,&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}<br>Server: cloudflare<br>CF-RAY: 7b8985c5aa309fad-SIN<br>alt-svc: h3=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400</pre>
                                 <h4>Response Body</h4>
                                     <pre>{<br>    <br>}</pre>
                                     <h4>Response Cookies</h4>
@@ -438,7 +438,7 @@
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
                                style="display:block;">
                                 <span class="top-level-step">
-                                                Then I receive valid HTTP response code 200
+                                                Then I receive invalid HTTP response code 404
                                         </span>
                             </a>
                             <span class="evidence">
@@ -447,7 +447,7 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">002ms</span></td>
+                    <td width="100"><span class="top-level-step">003ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -464,7 +464,7 @@
                     <td class="step-description-column">
                         <div class="step-description">
                                 <span class="nested-group-step">
-                                                I receive valid HTTP response code 200
+                                                I receive invalid HTTP response code 404
                                         </span>
                             <span class="evidence">
                                 </span>
@@ -503,7 +503,7 @@
                     </td>
 
                     <td width="130"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">002ms</span></td>
+                    <td width="100"><span class="top-level-step">001ms</span></td>
                 </tr>
                     <tr>
                         <td colspan="5">
@@ -537,7 +537,7 @@
             <tr class="test-SUCCESS">
                     <td colspan="2"></td>
                 <td width="130"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                <td width="100"><span class="top-level-step"><em>0.7s</em></span></td>
+                <td width="100"><span class="top-level-step"><em>0.68s</em></span></td>
             </tr>
 
         </table>

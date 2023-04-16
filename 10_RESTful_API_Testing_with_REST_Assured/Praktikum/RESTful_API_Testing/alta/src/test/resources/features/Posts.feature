@@ -36,7 +36,7 @@ Feature: Posts
 
     Scenario: PUT - As an admin I shouldn't be able to update missing posts
         Given I set PUT to invalid api endpoints
-        When I send PUT HTTP request
+        When I send PUT HTTP request2
         Then I receive invalid HTTP response code 500
 
     Scenario: DELETE - As admin I have be able to delete existing posts
@@ -46,6 +46,6 @@ Feature: Posts
 
     Scenario: DELETE - As admin I shouldn't be able to delete without input which posts
         Given I set DELETE to invalid api endpoints
-        When I send DELETE HTTP request
-        Then I receive valid HTTP response code 200
+        When I send invalid DELETE HTTP request
+        Then I receive invalid HTTP response code 404
         And I receive nothing from the page

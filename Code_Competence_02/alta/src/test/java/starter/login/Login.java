@@ -5,6 +5,7 @@ import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 import static org.hamcrest.Matchers.equalTo;
 
 import org.json.simple.JSONObject;
+import org.junit.Test;
 
 import net.thucydides.core.annotations.Step;
 

@@ -33,6 +33,16 @@ public class Delete {
         return url + "posts";
     }
 
+    @Step("I send invalid DELETE HTTP request")
+    public void sendDeleteInvalidApiEndpointsRequest2() {
+        SerenityRest.given().delete(setDeleteInvalidApiEndpoints());
+    }
+
+    @Step("I receive invalid HTTP response code 404")
+    public void validateHttpResponseCode404() {
+        restAssuredThat(response -> response.statusCode(404));
+    }
+
     @Step("I receive nothing from the page")
     public void receiveNothing() {
         restAssuredThat(response -> response.noRootPath());

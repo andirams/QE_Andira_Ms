@@ -1,5 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Cart","View cart that id number is 1","SUCCESS","2023-04-16T05:44:42.3019415+07:00[Asia/Bangkok]","0.0","3.79"
-"Cart","View cart with invalid API endpoint","SUCCESS","2023-04-16T05:44:46.1104073+07:00[Asia/Bangkok]","0.0","0.68"
-"Cart","View number 1 user information","SUCCESS","2023-04-16T05:44:50.001781+07:00[Asia/Bangkok]","0.0","0.7"
-"Cart","View user with invalid API endpoint","SUCCESS","2023-04-16T05:44:50.7163456+07:00[Asia/Bangkok]","0.0","0.94"
+"Cart","View cart that id number is 1","SUCCESS","2023-04-16T11:48:16.238714+07:00[Asia/Bangkok]","0.0","15.62"
+"Cart","View cart with invalid API endpoint","SUCCESS","2023-04-16T11:48:31.8854825+07:00[Asia/Bangkok]","0.0","1.01"

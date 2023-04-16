@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="starter.CucumberTestSuite" time="18.403" tests="8" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="starter.CucumberTestSuite" time="33.838" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="15"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15\bin"/>
-    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\WINDOWS 10\AppData\Local\Temp\surefire7335890926536986097 2023-04-16T05-44-39_199-jvmRun1 surefire8270809032301704550tmp surefire_018156132027144910809tmp"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\WINDOWS 10\AppData\Local\Temp\surefire3940206712395882309 2023-04-16T11-48-12_756-jvmRun1 surefire16171648298306973066tmp surefire_07521059147998669231tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\WINDOWS 10\Documents\GitHub\QE_Andira_Ms\Code_Competence_02\alta\target\test-classes;C:\Users\WINDOWS 10\.m2\repository\net\serenity-bdd\serenity-rest-assured\3.6.22\serenity-rest-assured-3.6.22.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\WINDOWS 10\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\WINDOWS 10\.m2\repository\io\rest-assured\rest-assured\5.3.0\rest-assured-5.3.0.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\WINDOWS 10\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\WINDOWS 10\.m2\repository\io\rest-assured\json-path\5.3.0\json-path-5.3.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\rest-assured\rest-assured-common\5.3.0\rest-assured-common-5.3.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\rest-assured\xml-path\5.3.0\xml-path-5.3.0.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\groovy\groovy-json\4.0.10\groovy-json-4.0.10.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\groovy\groovy-xml\4.0.10\groovy-xml-4.0.10.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\groovy\groovy\4.0.10\groovy-4.0.10.jar;C:\Users\WINDOWS 10\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\WINDOWS 10\.m2\repository\net\serenity-bdd\serenity-core\3.6.21\serenity-core-3.6.21.jar;C:\Users\WINDOWS 10\.m2\repository\net\serenity-bdd\serenity-model\3.6.21\serenity-model-3.6.21.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\commons\commons-text\1.10.0\commons-text-1.10.0.jar;C:\Users\WINDOWS 10\.m2\repository\commons-net\commons-net\3.9.0\commons-net-3.9.0.jar;C:\Users\WINDOWS 10\.m2\repository\com\google\guava\guava\31.1-jre\guava-31.1-jre.jar;C:\Users\WINDOWS 10\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\WINDOWS 10\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\WINDOWS 10\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\WINDOWS 10\.m2\repository\com\google\errorprone\error_prone_annotations\2.11.0\error_prone_annotations-2.11.0.jar;C:\Users\WINDOWS 10\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\WINDOWS 10\.m2\repository\com\google\inject\guice\5.1.0\guice-5.1.0.jar;C:\Users\WINDOWS 10\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\WINDOWS 10\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\WINDOWS 10\.m2\repository\org\jsoup\jsoup\1.14.3\jsoup-1.14.3.jar;C:\Users\WINDOWS 10\.m2\repository\com\thoughtworks\xstream\xstream\1.4.20\xstream-1.4.20.jar;C:\Users\WINDOWS 10\.m2\repository\io\github\x-stream\mxparser\1.2.2\mxparser-1.2.2.jar;C:\Users\WINDOWS 10\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\WINDOWS 10\.m2\repository\com\typesafe\config\1.4.2\config-1.4.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\imgscalr\imgscalr-lib\4.2\imgscalr-lib-4.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\WINDOWS 10\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\WINDOWS 10\.m2\repository\io\github\classgraph\classgraph\4.8.138\classgraph-4.8.138.jar;C:\Users\WINDOWS 10\.m2\repository\net\sourceforge\jexcelapi\jxl\2.6.12\jxl-2.6.12.jar;C:\Users\WINDOWS 10\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.2\byte-buddy-agent-1.14.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\WINDOWS 10\.m2\repository\net\serenity-bdd\serenity-reports\3.6.21\serenity-reports-3.6.21.jar;C:\Users\WINDOWS 10\.m2\repository\net\serenity-bdd\serenity-stats\3.6.21\serenity-stats-3.6.21.jar;C:\Users\WINDOWS 10\.m2\repository\net\serenity-bdd\serenity-reports-configuration\3.6.21\serenity-reports-configuration-3.6.21.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-all\0.62.2\flexmark-all-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark\0.62.2\flexmark-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-abbreviation\0.62.2\flexmark-ext-abbreviation-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-util\0.62.2\flexmark-util-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-admonition\0.62.2\flexmark-ext-admonition-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-anchorlink\0.62.2\flexmark-ext-anchorlink-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-aside\0.62.2\flexmark-ext-aside-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-attributes\0.62.2\flexmark-ext-attributes-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-autolink\0.62.2\flexmark-ext-autolink-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\nibor\autolink\autolink\0.6.0\autolink-0.6.0.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-definition\0.62.2\flexmark-ext-definition-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-emoji\0.62.2\flexmark-ext-emoji-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-enumerated-reference\0.62.2\flexmark-ext-enumerated-reference-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-escaped-character\0.62.2\flexmark-ext-escaped-character-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-footnotes\0.62.2\flexmark-ext-footnotes-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-issues\0.62.2\flexmark-ext-gfm-issues-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-strikethrough\0.62.2\flexmark-ext-gfm-strikethrough-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-tasklist\0.62.2\flexmark-ext-gfm-tasklist-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-gfm-users\0.62.2\flexmark-ext-gfm-users-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-gitlab\0.62.2\flexmark-ext-gitlab-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-front-matter\0.62.2\flexmark-ext-jekyll-front-matter-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-jekyll-tag\0.62.2\flexmark-ext-jekyll-tag-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-media-tags\0.62.2\flexmark-ext-media-tags-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-macros\0.62.2\flexmark-ext-macros-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-ins\0.62.2\flexmark-ext-ins-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-xwiki-macros\0.62.2\flexmark-ext-xwiki-macros-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-superscript\0.62.2\flexmark-ext-superscript-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-tables\0.62.2\flexmark-ext-tables-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-toc\0.62.2\flexmark-ext-toc-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-typographic\0.62.2\flexmark-ext-typographic-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-wikilink\0.62.2\flexmark-ext-wikilink-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-yaml-front-matter\0.62.2\flexmark-ext-yaml-front-matter-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-ext-youtube-embedded\0.62.2\flexmark-ext-youtube-embedded-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-html2md-converter\0.62.2\flexmark-html2md-converter-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-jira-converter\0.62.2\flexmark-jira-converter-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-pdf-converter\0.62.2\flexmark-pdf-converter-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\openhtmltopdf\openhtmltopdf-core\1.0.0\openhtmltopdf-core-1.0.0.jar;C:\Users\WINDOWS 10\.m2\repository\com\openhtmltopdf\openhtmltopdf-pdfbox\1.0.0\openhtmltopdf-pdfbox-1.0.0.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\pdfbox\pdfbox\2.0.16\pdfbox-2.0.16.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\pdfbox\fontbox\2.0.16\fontbox-2.0.16.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\pdfbox\xmpbox\2.0.16\xmpbox-2.0.16.jar;C:\Users\WINDOWS 10\.m2\repository\de\rototor\pdfbox\graphics2d\0.24\graphics2d-0.24.jar;C:\Users\WINDOWS 10\.m2\repository\com\openhtmltopdf\openhtmltopdf-rtl-support\1.0.0\openhtmltopdf-rtl-support-1.0.0.jar;C:\Users\WINDOWS 10\.m2\repository\com\openhtmltopdf\openhtmltopdf-jsoup-dom-converter\1.0.0\openhtmltopdf-jsoup-dom-converter-1.0.0.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-profile-pegdown\0.62.2\flexmark-profile-pegdown-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-util-ast\0.62.2\flexmark-util-ast-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-util-builder\0.62.2\flexmark-util-builder-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-util-collection\0.62.2\flexmark-util-collection-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-util-data\0.62.2\flexmark-util-data-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-util-dependency\0.62.2\flexmark-util-dependency-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-util-format\0.62.2\flexmark-util-format-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-util-html\0.62.2\flexmark-util-html-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-util-misc\0.62.2\flexmark-util-misc-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-util-options\0.62.2\flexmark-util-options-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-util-sequence\0.62.2\flexmark-util-sequence-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-util-visitor\0.62.2\flexmark-util-visitor-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\vladsch\flexmark\flexmark-youtrack-converter\0.62.2\flexmark-youtrack-converter-0.62.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\ibm\icu\icu4j\72.1\icu4j-72.1.jar;C:\Users\WINDOWS 10\.m2\repository\es\nitaur\markdown\txtmark\0.16\txtmark-0.16.jar;C:\Users\WINDOWS 10\.m2\repository\net\serenity-bdd\serenity-report-resources\3.6.21\serenity-report-resources-3.6.21.jar;C:\Users\WINDOWS 10\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\WINDOWS 10\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.0-rc1\jackson-core-2.15.0-rc1.jar;C:\Users\WINDOWS 10\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.0-rc1\jackson-databind-2.15.0-rc1.jar;C:\Users\WINDOWS 10\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.0-rc1\jackson-annotations-2.15.0-rc1.jar;C:\Users\WINDOWS 10\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\WINDOWS 10\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-java\4.8.1\selenium-java-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v108\4.8.1\selenium-devtools-v108-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v109\4.8.1\selenium-devtools-v109-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v110\4.8.1\selenium-devtools-v110-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.8.1\selenium-devtools-v85-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.8.1\selenium-remote-driver-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-buffer\4.1.87.Final\netty-buffer-4.1.87.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-codec-http\4.1.87.Final\netty-codec-http-4.1.87.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-codec\4.1.87.Final\netty-codec-4.1.87.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-handler\4.1.87.Final\netty-handler-4.1.87.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-common\4.1.87.Final\netty-common-4.1.87.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-transport-classes-epoll\4.1.87.Final\netty-transport-classes-epoll-4.1.87.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-transport-classes-kqueue\4.1.87.Final\netty-transport-classes-kqueue-4.1.87.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-transport-native-epoll\4.1.87.Final\netty-transport-native-epoll-4.1.87.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.87.Final\netty-transport-native-kqueue-4.1.87.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.87.Final\netty-transport-native-unix-common-4.1.87.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-transport\4.1.87.Final\netty-transport-4.1.87.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-resolver\4.1.87.Final\netty-resolver-4.1.87.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\opentelemetry\opentelemetry-api\1.22.0\opentelemetry-api-1.22.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\opentelemetry\opentelemetry-context\1.22.0\opentelemetry-context-1.22.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.22.0\opentelemetry-exporter-logging-1.22.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.22.0\opentelemetry-sdk-metrics-1.22.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.22.0-alpha\opentelemetry-sdk-logs-1.22.0-alpha.jar;C:\Users\WINDOWS 10\.m2\repository\io\opentelemetry\opentelemetry-api-logs\1.22.0-alpha\opentelemetry-api-logs-1.22.0-alpha.jar;C:\Users\WINDOWS 10\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.22.0\opentelemetry-sdk-common-1.22.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.22.0\opentelemetry-sdk-extension-autoconfigure-spi-1.22.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.22.0-alpha\opentelemetry-sdk-extension-autoconfigure-1.22.0-alpha.jar;C:\Users\WINDOWS 10\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.22.0\opentelemetry-sdk-trace-1.22.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.22.0\opentelemetry-sdk-1.22.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.22.0-alpha\opentelemetry-semconv-1.22.0-alpha.jar;C:\Users\WINDOWS 10\.m2\repository\io\ous\jtoml\2.0.0\jtoml-2.0.0.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\WINDOWS 10\.m2\repository\org\asynchttpclient\async-http-client\2.12.3\async-http-client-2.12.3.jar;C:\Users\WINDOWS 10\.m2\repository\org\asynchttpclient\async-http-client-netty-utils\2.12.3\async-http-client-netty-utils-2.12.3.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-codec-socks\4.1.60.Final\netty-codec-socks-4.1.60.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-handler-proxy\4.1.60.Final\netty-handler-proxy-4.1.60.Final.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-transport-native-epoll\4.1.60.Final\netty-transport-native-epoll-4.1.60.Final-linux-x86_64.jar;C:\Users\WINDOWS 10\.m2\repository\io\netty\netty-transport-native-kqueue\4.1.60.Final\netty-transport-native-kqueue-4.1.60.Final-osx-x86_64.jar;C:\Users\WINDOWS 10\.m2\repository\org\reactivestreams\reactive-streams\1.0.3\reactive-streams-1.0.3.jar;C:\Users\WINDOWS 10\.m2\repository\com\typesafe\netty\netty-reactive-streams\2.0.4\netty-reactive-streams-2.0.4.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.8.1\selenium-manager-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.8.1\selenium-safari-driver-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-api\4.8.1\selenium-api-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-support\4.8.1\selenium-support-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\WINDOWS 10\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\WINDOWS 10\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-json\4.8.1\selenium-json-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.8.1\selenium-chrome-driver-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.8.1\selenium-chromium-driver-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.8.1\selenium-firefox-driver-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-http\4.8.1\selenium-http-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\dev\failsafe\failsafe\3.3.0\failsafe-3.3.0.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.8.1\selenium-edge-driver-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.8.1\selenium-ie-driver-4.8.1.jar;C:\Users\WINDOWS 10\.m2\repository\org\projectlombok\lombok\1.18.20\lombok-1.18.20.jar;C:\Users\WINDOWS 10\.m2\repository\io\appium\java-client\8.3.0\java-client-8.3.0.jar;C:\Users\WINDOWS 10\.m2\repository\commons-validator\commons-validator\1.7\commons-validator-1.7.jar;C:\Users\WINDOWS 10\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\WINDOWS 10\.m2\repository\net\sf\opencsv\opencsv\2.0\opencsv-2.0.jar;C:\Users\WINDOWS 10\.m2\repository\commons-beanutils\commons-beanutils\1.9.4\commons-beanutils-1.9.4.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\WINDOWS 10\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\fluentlenium\fluentlenium-core\0.10.2\fluentlenium-core-0.10.2.jar;C:\Users\WINDOWS 10\.m2\repository\io\github\bonigarcia\webdrivermanager\5.3.0\webdrivermanager-5.3.0.jar;C:\Users\WINDOWS 10\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\WINDOWS 10\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\WINDOWS 10\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\WINDOWS 10\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\WINDOWS 10\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\WINDOWS 10\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\WINDOWS 10\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\WINDOWS 10\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\WINDOWS 10\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\WINDOWS 10\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.1.3\httpclient5-5.1.3.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.1.3\httpcore5-5.1.3.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.1.3\httpcore5-h2-5.1.3.jar;C:\Users\WINDOWS 10\.m2\repository\com\jhlabs\filters\2.0.235\filters-2.0.235.jar;C:\Users\WINDOWS 10\.m2\repository\com\paulhammant\ngwebdriver\1.1.6\ngwebdriver-1.1.6.jar;C:\Users\WINDOWS 10\.m2\repository\joda-time\joda-time\2.12.2\joda-time-2.12.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\WINDOWS 10\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\mockito\mockito-core\3.3.3\mockito-core-3.3.3.jar;C:\Users\WINDOWS 10\.m2\repository\javax\xml\bind\jaxb-api\2.3.1\jaxb-api-2.3.1.jar;C:\Users\WINDOWS 10\.m2\repository\javax\activation\javax.activation-api\1.2.0\javax.activation-api-1.2.0.jar;C:\Users\WINDOWS 10\.m2\repository\com\sun\xml\bind\jaxb-core\2.3.0.1\jaxb-core-2.3.0.1.jar;C:\Users\WINDOWS 10\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\WINDOWS 10\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\WINDOWS 10\.m2\repository\com\sun\activation\jakarta.activation\1.2.2\jakarta.activation-1.2.2.jar;C:\Users\WINDOWS 10\.m2\repository\javax\activation\activation\1.1.1\activation-1.1.1.jar;C:\Users\WINDOWS 10\.m2\repository\net\serenity-bdd\serenity-cucumber\3.6.21\serenity-cucumber-3.6.21.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\cucumber-core\7.11.0\cucumber-core-7.11.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\cucumber-gherkin\7.11.0\cucumber-gherkin-7.11.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.11.0\cucumber-gherkin-messages-7.11.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\gherkin\26.0.3\gherkin-26.0.3.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\messages\21.0.1\messages-21.0.1.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\tag-expressions\5.0.1\tag-expressions-5.0.1.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\cucumber-expressions\16.1.1\cucumber-expressions-16.1.1.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\datatable\7.11.0\datatable-7.11.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\cucumber-plugin\7.11.0\cucumber-plugin-7.11.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\docstring\7.11.0\docstring-7.11.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\html-formatter\20.2.1\html-formatter-20.2.1.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\junit-xml-formatter\0.1.0\junit-xml-formatter-0.1.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\cucumber-java\7.11.0\cucumber-java-7.11.0.jar;C:\Users\WINDOWS 10\.m2\repository\io\cucumber\cucumber-junit\7.11.0\cucumber-junit-7.11.0.jar;C:\Users\WINDOWS 10\.m2\repository\org\apache\commons\commons-csv\1.5\commons-csv-1.5.jar;C:\Users\WINDOWS 10\.m2\repository\net\serenity-bdd\serenity-screenplay\3.6.21\serenity-screenplay-3.6.21.jar;C:\Users\WINDOWS 10\.m2\repository\net\serenity-bdd\serenity-screenplay-webdriver\3.6.21\serenity-screenplay-webdriver-3.6.21.jar;C:\Users\WINDOWS 10\.m2\repository\net\serenity-bdd\serenity-ensure\3.6.21\serenity-ensure-3.6.21.jar;C:\Users\WINDOWS 10\.m2\repository\net\serenity-bdd\serenity-junit\3.6.21\serenity-junit-3.6.21.jar;C:\Users\WINDOWS 10\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\1.8.10\kotlin-stdlib-1.8.10.jar;C:\Users\WINDOWS 10\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib-common\1.8.10\kotlin-stdlib-common-1.8.10.jar;C:\Users\WINDOWS 10\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\WINDOWS 10\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\junit\vintage\junit-vintage-engine\5.8.2\junit-vintage-engine-5.8.2.jar;C:\Users\WINDOWS 10\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\WINDOWS 10\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\WINDOWS 10\.m2\repository\ch\qos\logback\logback-classic\1.2.10\logback-classic-1.2.10.jar;C:\Users\WINDOWS 10\.m2\repository\ch\qos\logback\logback-core\1.2.10\logback-core-1.2.10.jar;C:\Users\WINDOWS 10\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\WINDOWS 10\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar;C:\Users\WINDOWS 10\.m2\repository\net\bytebuddy\byte-buddy\1.12.10\byte-buddy-1.12.10.jar;C:\Users\WINDOWS 10\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -50,18 +50,18 @@
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\PerCoolyeahan\Instalasi\XAMPP\php;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\PROGRA~1\IBM\SQLLIB~1\BIN;C:\PROGRA~1\IBM\SQLLIB~1\FUNCTION;C:\PROGRA~1\IBM\SQLLIB~1\SAMPLES\REPL;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\apache-maven-3.9.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\WINDOWS 10\AppData\Local\Microsoft\WindowsApps;C:\Users\WINDOWS 10\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\WINDOWS 10\AppData\Roaming\Composer\vendor\bin;C:\Users\WINDOWS 10\AppData\Roaming\npm;C:\Users\WINDOWS 10\AppData\Local\GitHubDesktop\bin;C:\Users\WINDOWS 10\AppData\Local\spicetify;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;F:\PerCoolyeahan\Instalasi\XAMPP\php;C:\Program Files\Git\cmd;C:\ProgramData\ComposerSetup\bin;C:\Program Files\nodejs\;C:\PROGRA~1\IBM\SQLLIB~1\BIN;C:\PROGRA~1\IBM\SQLLIB~1\FUNCTION;C:\PROGRA~1\IBM\SQLLIB~1\SAMPLES\REPL;C:\Program Files\Cloudflare\Cloudflare WARP\;C:\Program Files\apache-maven-3.9.1\bin;C:\Users\WINDOWS 10\AppData\Local\Android\Sdk\tools;C:\Users\WINDOWS 10\AppData\Local\Android\Sdk\tools\bin;C:\Users\WINDOWS 10\AppData\Local\Android\Sdk\platform\tools;C:\Program Files\Gradle\gradle-8.1\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\WINDOWS 10\AppData\Local\Microsoft\WindowsApps;C:\Users\WINDOWS 10\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\WINDOWS 10\AppData\Roaming\Composer\vendor\bin;C:\Users\WINDOWS 10\AppData\Roaming\npm;C:\Users\WINDOWS 10\AppData\Local\GitHubDesktop\bin;C:\Users\WINDOWS 10\AppData\Local\spicetify;C:\Users\WINDOWS 10\AppData\Local\Android\Sdk\tools;C:\Users\WINDOWS 10\AppData\Local\Android\Sdk\tools\bin;C:\Users\WINDOWS 10\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Gradle\gradle-8.1\bin;;."/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="java.vm.version" value="15+36-1562"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="59.0"/>
   </properties>
-  <testcase name="View cart that id number is 1" classname="Cart #1" time="3.967">
-    <system-out><![CDATA[05:44:41.730 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.ThucydidesModule
-05:44:41.949 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Cart.feature
-05:44:42.076 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
-05:44:42.092 [main] INFO  - 
+  <testcase name="View cart that id number is 1" classname="Cart" time="15.833">
+    <system-out><![CDATA[11:48:15.572 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.ThucydidesModule
+11:48:15.840 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Cart.feature
+11:48:15.976 [main] DEBUG net.thucydides.core.guice.Injectors - Created injector for module net.thucydides.core.guice.webdriver.WebDriverModule
+11:48:15.993 [main] INFO  - 
 
 -------------------------------------------------------------------------------------
      _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
@@ -77,24 +77,24 @@
  Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
 -------------------------------------------------------------------------------------
 
-05:44:42.094 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@db962328
-05:44:42.097 [main] INFO  - Test Suite Started: Cart
-05:44:42.107 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Login.feature
-05:44:42.111 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@23282f08
-05:44:42.112 [main] INFO  - Test Suite Started: Login
-05:44:42.112 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Products.feature
-05:44:42.116 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@31b157a8
-05:44:42.117 [main] INFO  - Test Suite Started: Products
-05:44:42.117 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/User.feature
-05:44:42.121 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4de4b8d3
-05:44:42.122 [main] INFO  - Test Suite Started: Cart
-05:44:42.122 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Cart.feature
-05:44:42.125 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@db962328
-05:44:42.126 [main] INFO  - Test Suite Started: Cart
+11:48:15.995 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@db962328
+11:48:15.998 [main] INFO  - Test Suite Started: Cart
+11:48:16.011 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Login.feature
+11:48:16.017 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@23282f08
+11:48:16.018 [main] INFO  - Test Suite Started: Login
+11:48:16.018 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Products.feature
+11:48:16.022 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@31b157a8
+11:48:16.023 [main] INFO  - Test Suite Started: Products
+11:48:16.023 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/User.feature
+11:48:16.027 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4eea5d88
+11:48:16.028 [main] INFO  - Test Suite Started: User
+11:48:16.028 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Cart.feature
+11:48:16.031 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@db962328
+11:48:16.032 [main] INFO  - Test Suite Started: Cart
 
 Scenario: View cart that id number is 1                 &amp#27;[90m# src/test/resources/features/Cart.feature:6&amp#27;[0m
-05:44:42.198 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Cart.feature
-05:44:42.300 [main] INFO  - 
+11:48:16.124 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Cart.feature
+11:48:16.238 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -102,88 +102,88 @@ Scenario: View cart that id number is 1                 &amp#27;[90m# src/test/r
 
 View cart that id number is 1(cart;view-cart-that-id-number-is-1)
 --------------------------------------------------------------------------------
-05:44:42.352 [main] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Loading feature C:\Users\WINDOWS 10\Documents\GitHub\QE_Andira_Ms\Code_Competence_02\alta\src\test\resources\features\Cart.feature
-05:44:42.368 [main] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Loading feature C:\Users\WINDOWS 10\Documents\GitHub\QE_Andira_Ms\Code_Competence_02\alta\src\test\resources\features\Login.feature
-05:44:42.372 [main] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Loading feature C:\Users\WINDOWS 10\Documents\GitHub\QE_Andira_Ms\Code_Competence_02\alta\src\test\resources\features\Products.feature
-05:44:42.383 [main] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Loading feature C:\Users\WINDOWS 10\Documents\GitHub\QE_Andira_Ms\Code_Competence_02\alta\src\test\resources\features\User.feature
-05:44:42.735 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCartSteps.setGetApiEndpoints - I set GET cart api endpoints
-05:44:42.737 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET cart api endpoints
+11:48:16.293 [main] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Loading feature C:\Users\WINDOWS 10\Documents\GitHub\QE_Andira_Ms\Code_Competence_02\alta\src\test\resources\features\Cart.feature
+11:48:16.315 [main] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Loading feature C:\Users\WINDOWS 10\Documents\GitHub\QE_Andira_Ms\Code_Competence_02\alta\src\test\resources\features\Login.feature
+11:48:16.320 [main] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Loading feature C:\Users\WINDOWS 10\Documents\GitHub\QE_Andira_Ms\Code_Competence_02\alta\src\test\resources\features\Products.feature
+11:48:16.327 [main] DEBUG net.thucydides.core.requirements.model.cucumber.CucumberParser - Loading feature C:\Users\WINDOWS 10\Documents\GitHub\QE_Andira_Ms\Code_Competence_02\alta\src\test\resources\features\User.feature
+11:48:16.719 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCartSteps.setGetApiEndpoints - I set GET cart api endpoints
+11:48:16.721 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET cart api endpoints
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set GET cart api endpoints&amp#27;[0m                    &amp#27;[90m# starter.stepdefinitions.getCartSteps.setGetApiEndpoints()&amp#27;[0m
-05:44:42.747 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCartSteps.setGetHttpRequest - I send a GET request to the cart API endpoint
-05:44:44.122 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCart.setGetHttpRequest - I set GET cart api endpoints
-05:44:44.122 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET cart api endpoints
-05:44:44.695 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
-05:44:44.709 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
-05:44:44.918 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
-05:44:44.919 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-05:44:44.919 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
-05:44:44.920 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-05:44:44.920 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
-05:44:44.920 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /carts/1 HTTP/1.1
-05:44:44.920 [main] DEBUG org.apache.http.wire -  >> "GET /carts/1 HTTP/1.1[\r][\n]"
-05:44:44.921 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
-05:44:44.921 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
-05:44:44.921 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
-05:44:44.921 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
-05:44:44.921 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-05:44:44.921 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
-05:44:44.921 [main] DEBUG org.apache.http.headers - >> GET /carts/1 HTTP/1.1
-05:44:44.921 [main] DEBUG org.apache.http.headers - >> Accept: */*
-05:44:44.921 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
-05:44:44.921 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
-05:44:44.921 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
-05:44:44.921 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-05:44:45.461 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
-05:44:45.463 [main] DEBUG org.apache.http.wire -  << "Date: Sat, 15 Apr 2023 22:44:47 GMT[\r][\n]"
-05:44:45.463 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-05:44:45.463 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
-05:44:45.463 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
-05:44:45.463 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
-05:44:45.463 [main] DEBUG org.apache.http.wire -  << "Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"[\r][\n]"
-05:44:45.463 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
-05:44:45.463 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
-05:44:45.464 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2iH6OdOawVdxxu2QxVrhPwGBBi%2FuBZjWwCObtr3dLPietzt2kgDcIdRFXGIMweeWlz%2B2iEKW%2Bl9wxXtBdKR%2FI8tEo%2FW3uw8G3hhuHVj111f613dboWbT6r%2Fe3qVFli5ox1us"}],"group":"cf-nel","max_age":604800}[\r][\n]"
-05:44:45.464 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
-05:44:45.464 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
-05:44:45.464 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b87b712ae803f9f-SIN[\r][\n]"
-05:44:45.464 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
-05:44:45.464 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
-05:44:45.464 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:45.465 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-05:44:45.465 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
-05:44:45.465 [main] DEBUG org.apache.http.headers - << Date: Sat, 15 Apr 2023 22:44:47 GMT
-05:44:45.465 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
-05:44:45.465 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
-05:44:45.465 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
-05:44:45.465 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
-05:44:45.465 [main] DEBUG org.apache.http.headers - << Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
-05:44:45.465 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
-05:44:45.465 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
-05:44:45.465 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2iH6OdOawVdxxu2QxVrhPwGBBi%2FuBZjWwCObtr3dLPietzt2kgDcIdRFXGIMweeWlz%2B2iEKW%2Bl9wxXtBdKR%2FI8tEo%2FW3uw8G3hhuHVj111f613dboWbT6r%2Fe3qVFli5ox1us"}],"group":"cf-nel","max_age":604800}
-05:44:45.465 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-05:44:45.465 [main] DEBUG org.apache.http.headers - << Server: cloudflare
-05:44:45.465 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b87b712ae803f9f-SIN
-05:44:45.465 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
-05:44:45.465 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-05:44:45.471 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
-05:44:45.473 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
-05:44:45.474 [main] DEBUG org.apache.http.wire -  << "7c[\r][\n]"
-05:44:45.474 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xaa]V[0xca]LQ[0xb2]2[0xd4]Q*-N-[0xf2][0x84]0S[0x12]KR[0x95][0xac][0x94][0x8c][0xc][0x8c][0xc]t[\r][0x8c]u[\r][0x8c]B[0xc][0xc][0xac][0xc0]H[0xcf][0xc0][0xc0] JIG[0xa9][0xa0](?[0xa5]4[0xb9][0xa4]X[0xc9]*[0xba][0x1a][0xc6][0x81]j.,M[0xcc]+[0xc9],[0xa9]T[0xb2]2[0xa9][0xd5]A[0x91]4B[0x96]4D[0x93]4F[0x96]4[0xab][0x8d][0xd5]Q[0x8a][0x8f]/S[0xb2]2[0xa8][0x5][0x0][0x0][0x0][0xff][0xff][0x3][0x0][0x8][0xed][0xd1][0xed][0xa1][0x0][0x0][0x0]"
-05:44:45.474 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:45.474 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
-05:44:45.474 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:45.474 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-05:44:45.508 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@f44d033
-05:44:45.508 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
-05:44:45.526 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send a GET request to the cart API endpoint
+11:48:16.730 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCartSteps.setGetHttpRequest - I send a GET request to the cart API endpoint
+11:48:18.401 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCart.setGetHttpRequest - I set GET cart api endpoints
+11:48:18.401 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET cart api endpoints
+11:48:19.070 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
+11:48:30.140 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
+11:48:30.369 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:48:30.370 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:48:30.370 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+11:48:30.371 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:48:30.371 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:48:30.371 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /carts/1 HTTP/1.1
+11:48:30.371 [main] DEBUG org.apache.http.wire -  >> "GET /carts/1 HTTP/1.1[\r][\n]"
+11:48:30.372 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:48:30.372 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
+11:48:30.373 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:48:30.373 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
+11:48:30.373 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:48:30.373 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:48:30.373 [main] DEBUG org.apache.http.headers - >> GET /carts/1 HTTP/1.1
+11:48:30.373 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:48:30.373 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
+11:48:30.373 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:48:30.373 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
+11:48:30.373 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:48:31.215 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:48:31.216 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 04:48:33 GMT[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fBHa%2FwOP09uuK%2BcPTekRfmqo4ZscGovFLpF8ElroFcmSpBoWKBiREy4Lv68jwaRTclgQKbSIbtRVq%2Ff523tdvCzsVp2BIU5lQPMUtuQYs3eDPJN0Vjsu%2FFQkUdH%2FsjMxLRpG"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b89cbeed84444b4-SIN[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+11:48:31.217 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:31.218 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:48:31.218 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:48:31.218 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 04:48:33 GMT
+11:48:31.218 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+11:48:31.218 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+11:48:31.218 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+11:48:31.218 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+11:48:31.218 [main] DEBUG org.apache.http.headers - << Etag: W/"a1-wvAyaNKAHffOoZd5/I4wHuNFvSs"
+11:48:31.218 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+11:48:31.218 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
+11:48:31.218 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fBHa%2FwOP09uuK%2BcPTekRfmqo4ZscGovFLpF8ElroFcmSpBoWKBiREy4Lv68jwaRTclgQKbSIbtRVq%2Ff523tdvCzsVp2BIU5lQPMUtuQYs3eDPJN0Vjsu%2FFQkUdH%2FsjMxLRpG"}],"group":"cf-nel","max_age":604800}
+11:48:31.218 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+11:48:31.218 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+11:48:31.218 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b89cbeed84444b4-SIN
+11:48:31.218 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+11:48:31.218 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+11:48:31.222 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:48:31.225 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+11:48:31.226 [main] DEBUG org.apache.http.wire -  << "7c[\r][\n]"
+11:48:31.226 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0xaa]V[0xca]LQ[0xb2]2[0xd4]Q*-N-[0xf2][0x84]0S[0x12]KR[0x95][0xac][0x94][0x8c][0xc][0x8c][0xc]t[\r][0x8c]u[\r][0x8c]B[0xc][0xc][0xac][0xc0]H[0xcf][0xc0][0xc0] JIG[0xa9][0xa0](?[0xa5]4[0xb9][0xa4]X[0xc9]*[0xba][0x1a][0xc6][0x81]j.,M[0xcc]+[0xc9],[0xa9]T[0xb2]2[0xa9][0xd5]A[0x91]4B[0x96]4D[0x93]4F[0x96]4[0xab][0x8d][0xd5]Q[0x8a][0x8f]/S[0xb2]2[0xa8][0x5][0x0][0x0][0x0][0xff][0xff][0x3][0x0][0x8][0xed][0xd1][0xed][0xa1][0x0][0x0][0x0]"
+11:48:31.226 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:31.226 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+11:48:31.226 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:31.227 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:48:31.264 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@f44d033
+11:48:31.264 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:48:31.287 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send a GET request to the cart API endpoint
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to the cart API endpoint&amp#27;[0m    &amp#27;[90m# starter.stepdefinitions.getCartSteps.setGetHttpRequest()&amp#27;[0m
-05:44:45.530 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCartSteps.receiveValidHttp200 - I receive valid HTTP response code 200
-05:44:45.547 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
+11:48:31.292 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCartSteps.receiveValidHttp200 - I receive valid HTTP response code 200
+11:48:31.313 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should receive a response with status code 200&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.getCartSteps.receiveValidHttp200()&amp#27;[0m
-05:44:45.550 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCartSteps.receiveValidDataForDetailCart - I receive valid data of the cart
-05:44:46.086 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data of the cart
+11:48:31.317 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCartSteps.receiveValidDataForDetailCart - I receive valid data of the cart
+11:48:31.857 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data of the cart
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data of the cart&amp#27;[0m                  &amp#27;[90m# starter.stepdefinitions.getCartSteps.receiveValidDataForDetailCart()&amp#27;[0m
-05:44:46.091 [main] INFO  - 
+11:48:31.863 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -193,11 +193,11 @@ View cart that id number is 1
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="View cart with invalid API endpoint" classname="Cart #1" time="0.699">
+  <testcase name="View cart with invalid API endpoint" classname="Cart" time="1.03">
     <system-out><![CDATA[
 Scenario: View cart with invalid API endpoint               &amp#27;[90m# src/test/resources/features/Cart.feature:12&amp#27;[0m
-05:44:46.104 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Cart.feature
-05:44:46.110 [main] INFO  - 
+11:48:31.880 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Cart.feature
+11:48:31.885 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -205,78 +205,78 @@ Scenario: View cart with invalid API endpoint               &amp#27;[90m# src/te
 
 View cart with invalid API endpoint(cart;view-cart-with-invalid-api-endpoint)
 --------------------------------------------------------------------------------
-05:44:46.127 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCartSteps.setInvaliApiEndpoints - I set invalid GET cart api endpoints
-05:44:46.127 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set invalid GET cart api endpoints
+11:48:31.902 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCartSteps.setInvaliApiEndpoints - I set invalid GET cart api endpoints
+11:48:31.903 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set invalid GET cart api endpoints
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set invalid GET cart api endpoints&amp#27;[0m                &amp#27;[90m# starter.stepdefinitions.getCartSteps.setInvaliApiEndpoints()&amp#27;[0m
-05:44:46.133 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCartSteps.setInvalidGetCartHttpRequest - I send a GET cart request to an invalid API endpoint
-05:44:46.135 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCart.setInvalidGetCartHttpRequest - I set invalid GET cart api endpoints
-05:44:46.135 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set invalid GET cart api endpoints
-05:44:46.151 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
-05:44:46.151 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
-05:44:46.228 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
-05:44:46.229 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-05:44:46.229 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
-05:44:46.229 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-05:44:46.229 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
-05:44:46.229 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /carts/8 HTTP/1.1
-05:44:46.229 [main] DEBUG org.apache.http.wire -  >> "GET /carts/8 HTTP/1.1[\r][\n]"
-05:44:46.229 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
-05:44:46.229 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
-05:44:46.229 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
-05:44:46.229 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
-05:44:46.229 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-05:44:46.229 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
-05:44:46.230 [main] DEBUG org.apache.http.headers - >> GET /carts/8 HTTP/1.1
-05:44:46.230 [main] DEBUG org.apache.http.headers - >> Accept: */*
-05:44:46.230 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
-05:44:46.230 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
-05:44:46.230 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
-05:44:46.230 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-05:44:46.757 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
-05:44:46.757 [main] DEBUG org.apache.http.wire -  << "Date: Sat, 15 Apr 2023 22:44:48 GMT[\r][\n]"
-05:44:46.757 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-05:44:46.757 [main] DEBUG org.apache.http.wire -  << "Content-Length: 4[\r][\n]"
-05:44:46.757 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
-05:44:46.758 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
-05:44:46.758 [main] DEBUG org.apache.http.wire -  << "Etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"[\r][\n]"
-05:44:46.758 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
-05:44:46.758 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
-05:44:46.758 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JOMjpvjMdMf7uht4ATPk%2FtavZc5kFCECdbYUrGz7GeHg8s%2BElwngSXMHs%2FTGJe6SoprqfC9N25uIKag8sdkE4V4K7JgjaZs7yqzJ8pSgNJGd4ECEzbMlenXYwqPDLIe8I9EE"}],"group":"cf-nel","max_age":604800}[\r][\n]"
-05:44:46.758 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
-05:44:46.758 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
-05:44:46.758 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b87b71acd0c3ffc-SIN[\r][\n]"
-05:44:46.758 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
-05:44:46.758 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:46.758 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-05:44:46.758 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
-05:44:46.758 [main] DEBUG org.apache.http.headers - << Date: Sat, 15 Apr 2023 22:44:48 GMT
-05:44:46.758 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
-05:44:46.758 [main] DEBUG org.apache.http.headers - << Content-Length: 4
-05:44:46.758 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
-05:44:46.758 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
-05:44:46.758 [main] DEBUG org.apache.http.headers - << Etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
-05:44:46.758 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
-05:44:46.758 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
-05:44:46.758 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JOMjpvjMdMf7uht4ATPk%2FtavZc5kFCECdbYUrGz7GeHg8s%2BElwngSXMHs%2FTGJe6SoprqfC9N25uIKag8sdkE4V4K7JgjaZs7yqzJ8pSgNJGd4ECEzbMlenXYwqPDLIe8I9EE"}],"group":"cf-nel","max_age":604800}
-05:44:46.758 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-05:44:46.758 [main] DEBUG org.apache.http.headers - << Server: cloudflare
-05:44:46.758 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b87b71acd0c3ffc-SIN
-05:44:46.758 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-05:44:46.759 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
-05:44:46.759 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
-05:44:46.759 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-05:44:46.760 [main] DEBUG org.apache.http.wire -  << "null"
-05:44:46.760 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@61246109
-05:44:46.760 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
-05:44:46.761 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send a GET cart request to an invalid API endpoint
+11:48:31.909 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCartSteps.setInvalidGetCartHttpRequest - I send a GET cart request to an invalid API endpoint
+11:48:31.911 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getCart.setInvalidGetCartHttpRequest - I set invalid GET cart api endpoints
+11:48:31.911 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set invalid GET cart api endpoints
+11:48:31.931 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
+11:48:31.932 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
+11:48:32.010 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:48:32.010 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:48:32.010 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+11:48:32.010 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:48:32.010 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:48:32.010 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /carts/8 HTTP/1.1
+11:48:32.010 [main] DEBUG org.apache.http.wire -  >> "GET /carts/8 HTTP/1.1[\r][\n]"
+11:48:32.010 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:48:32.010 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
+11:48:32.010 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:48:32.010 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
+11:48:32.010 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:48:32.010 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:48:32.010 [main] DEBUG org.apache.http.headers - >> GET /carts/8 HTTP/1.1
+11:48:32.011 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:48:32.011 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
+11:48:32.011 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:48:32.011 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
+11:48:32.011 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 04:48:35 GMT[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "Content-Length: 4[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "Etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iIBIhw1NwaZX25tJDXV%2FOojO1vH6WhCPQJh%2BWlrcG7p0PozkKNpVQ08NIXzZmqflJcSBk2R%2Bu37hLeCF1Ybvh%2FclRPG3U60ofRE595OmdEAZSFLwSJ50zNiTwZOsTN3ruHEh"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b89cbf91a0d4709-SIN[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:32.858 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:48:32.858 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:48:32.858 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 04:48:35 GMT
+11:48:32.858 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+11:48:32.858 [main] DEBUG org.apache.http.headers - << Content-Length: 4
+11:48:32.858 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+11:48:32.858 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+11:48:32.858 [main] DEBUG org.apache.http.headers - << Etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+11:48:32.859 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+11:48:32.859 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
+11:48:32.859 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=iIBIhw1NwaZX25tJDXV%2FOojO1vH6WhCPQJh%2BWlrcG7p0PozkKNpVQ08NIXzZmqflJcSBk2R%2Bu37hLeCF1Ybvh%2FclRPG3U60ofRE595OmdEAZSFLwSJ50zNiTwZOsTN3ruHEh"}],"group":"cf-nel","max_age":604800}
+11:48:32.859 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+11:48:32.859 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+11:48:32.859 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b89cbf91a0d4709-SIN
+11:48:32.859 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+11:48:32.859 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:48:32.859 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+11:48:32.859 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:48:32.860 [main] DEBUG org.apache.http.wire -  << "null"
+11:48:32.860 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@61246109
+11:48:32.860 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:48:32.861 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send a GET cart request to an invalid API endpoint
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET cart request to an invalid API endpoint&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.getCartSteps.setInvalidGetCartHttpRequest()&amp#27;[0m
-05:44:46.774 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.receiveValidHttp200 - I receive valid HTTP response code 200
-05:44:46.775 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
+11:48:32.875 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.receiveValidHttp200 - I receive valid HTTP response code 200
+11:48:32.876 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 200&amp#27;[0m               &amp#27;[90m# starter.stepdefinitions.LoginSteps.receiveValidHttp200()&amp#27;[0m
-05:44:46.790 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.receiveNothing - I receive empty content
-05:44:46.790 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive empty content
+11:48:32.892 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.receiveNothing - I receive empty content
+11:48:32.893 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive empty content
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive empty content&amp#27;[0m                               &amp#27;[90m# starter.stepdefinitions.getProductSteps.receiveNothing()&amp#27;[0m
-05:44:46.793 [main] INFO  - 
+11:48:32.897 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -286,14 +286,14 @@ View cart with invalid API endpoint
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Successful login with valid credentials" classname="Login" time="0.702">
-    <system-out><![CDATA[05:44:46.795 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Login.feature
-05:44:46.801 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@23282f08
-05:44:46.803 [main] INFO  - Test Suite Started: Login
+  <testcase name="Successful login with valid credentials" classname="Login" time="1.091">
+    <system-out><![CDATA[11:48:32.900 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Login.feature
+11:48:32.907 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@23282f08
+11:48:32.909 [main] INFO  - Test Suite Started: Login
 
 Scenario: Successful login with valid credentials &amp#27;[90m# src/test/resources/features/Login.feature:6&amp#27;[0m
-05:44:46.810 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Login.feature
-05:44:46.816 [main] INFO  - 
+11:48:32.918 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Login.feature
+11:48:32.924 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -301,88 +301,86 @@ Scenario: Successful login with valid credentials &amp#27;[90m# src/test/resourc
 
 Successful login with valid credentials(login;successful-login-with-valid-credentials)
 --------------------------------------------------------------------------------
-05:44:46.837 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.setPostApiEndpoints - I set valid POST api endpoints
-05:44:46.837 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set valid POST api endpoints
+11:48:32.946 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.setPostApiEndpoints - I set valid POST api endpoints
+11:48:32.946 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set valid POST api endpoints
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set valid POST api endpoints&amp#27;[0m            &amp#27;[90m# starter.stepdefinitions.LoginSteps.setPostApiEndpoints()&amp#27;[0m
-05:44:46.843 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.sendPostHttpRequest - I send POST HTTP request
-05:44:46.851 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.sendPostHttpRequest - I set valid POST api endpoints
-05:44:46.851 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set valid POST api endpoints
-05:44:46.877 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
-05:44:46.878 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
-05:44:46.958 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
-05:44:46.958 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-05:44:46.958 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
-05:44:46.958 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-05:44:46.958 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
-05:44:46.958 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /auth/login HTTP/1.1
-05:44:46.958 [main] DEBUG org.apache.http.wire -  >> "POST /auth/login HTTP/1.1[\r][\n]"
-05:44:46.958 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
-05:44:46.958 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
-05:44:46.958 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 43[\r][\n]"
-05:44:46.958 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
-05:44:46.958 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
-05:44:46.958 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
-05:44:46.958 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-05:44:46.958 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
-05:44:46.958 [main] DEBUG org.apache.http.headers - >> POST /auth/login HTTP/1.1
-05:44:46.958 [main] DEBUG org.apache.http.headers - >> Accept: */*
-05:44:46.958 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
-05:44:46.958 [main] DEBUG org.apache.http.headers - >> Content-Length: 43
-05:44:46.958 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
-05:44:46.958 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
-05:44:46.958 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
-05:44:46.958 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-05:44:46.959 [main] DEBUG org.apache.http.wire -  >> "{"password":"83r5^_","username":"mor_2314"}"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "Date: Sat, 15 Apr 2023 22:44:49 GMT[\r][\n]"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "Etag: W/"98-XPA+8CGb++0Ij5XCE4zPLMmRIOg"[\r][\n]"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lvMm12KKzFevCo1CgmYPtfiIaQz%2FJXbTFrGMlH%2BRBWjjLjfL1CJ5w%2BFuW3wZ2vIok3xVpnIgQtoDfA30AwN%2FVaZGyawge%2BaBA0ymc3DTnDcrwTuSyTy3olaWnoi96dwnbnfi"}],"group":"cf-nel","max_age":604800}[\r][\n]"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b87b71f6d103e65-SIN[\r][\n]"
-05:44:47.495 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
-05:44:47.496 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
-05:44:47.496 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:47.496 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-05:44:47.496 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
-05:44:47.496 [main] DEBUG org.apache.http.headers - << Date: Sat, 15 Apr 2023 22:44:49 GMT
-05:44:47.496 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
-05:44:47.496 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
-05:44:47.496 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
-05:44:47.496 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
-05:44:47.496 [main] DEBUG org.apache.http.headers - << Etag: W/"98-XPA+8CGb++0Ij5XCE4zPLMmRIOg"
-05:44:47.496 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
-05:44:47.496 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
-05:44:47.496 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=lvMm12KKzFevCo1CgmYPtfiIaQz%2FJXbTFrGMlH%2BRBWjjLjfL1CJ5w%2BFuW3wZ2vIok3xVpnIgQtoDfA30AwN%2FVaZGyawge%2BaBA0ymc3DTnDcrwTuSyTy3olaWnoi96dwnbnfi"}],"group":"cf-nel","max_age":604800}
-05:44:47.496 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-05:44:47.496 [main] DEBUG org.apache.http.headers - << Server: cloudflare
-05:44:47.496 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b87b71f6d103e65-SIN
-05:44:47.496 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
-05:44:47.496 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-05:44:47.497 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
-05:44:47.497 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
-05:44:47.497 [main] DEBUG org.apache.http.wire -  << "a6[\r][\n]"
-05:44:47.497 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x14][0xcb][0xdd][\n]"
-05:44:47.497 [main] DEBUG org.apache.http.wire -  << "[0x82]0[0x18][0x0][0xd0]w[0xd9][0x3][0x88][0xe1]f[0xac][0xbb]X[0x91][0xdf]`[0x8e][0xc4][0xbf]y9][0xf9]o[0xa5]A.z[0xf7][0xf0][0xfa]p[0xbe]h[0x99]:3[0xa2][0x3]2+[0xaf][0xf5][0xa5]ld[0xc3]![0xb1][0xb0][0xb][0x1b][0x98]a[0x8c]H[0xc9][0xc0][0x87][0xee][0x91][0xa7][0x8c]S[0xc7][0xac][0xdc]V[0x19]4[0xb2][0xdd]0[0xb5]E[0xe][X[0xb4][0xc7]o[0xa2][0x15][0x9f][0x90][0xc1][0xc]C_W[0xc]|[0x11]+,[0xe2][0x84][0xc8][0x93][0xc2]2w[0x1d][0x1d]Pu[0xc6][0xd4][0xed][0xbc]>[0xbb]w[0x91]5~[0xbf]Wd[0xa2][0x94]<[0xaf][0xf0]z[0x3]>[\n]"
-05:44:47.497 [main] DEBUG org.apache.http.wire -  << "=h6[0x17][0xc1][0x84]~[0x0][0x0][0x0][0xff][0xff][0x3][0x0][0xfb]{[0xff][0xba][0x98][0x0][0x0][0x0]"
-05:44:47.497 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:47.497 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
-05:44:47.497 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:47.497 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-05:44:47.499 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1d40f597
-05:44:47.499 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
-05:44:47.500 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send POST HTTP request
+11:48:32.953 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.sendPostHttpRequest - I send POST HTTP request
+11:48:32.965 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.sendPostHttpRequest - I set valid POST api endpoints
+11:48:32.966 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set valid POST api endpoints
+11:48:33.017 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
+11:48:33.017 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
+11:48:33.106 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:48:33.106 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:48:33.106 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+11:48:33.106 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:48:33.106 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:48:33.106 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /auth/login HTTP/1.1
+11:48:33.106 [main] DEBUG org.apache.http.wire -  >> "POST /auth/login HTTP/1.1[\r][\n]"
+11:48:33.106 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:48:33.106 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+11:48:33.106 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 43[\r][\n]"
+11:48:33.106 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
+11:48:33.106 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:48:33.106 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
+11:48:33.106 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:48:33.106 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:48:33.106 [main] DEBUG org.apache.http.headers - >> POST /auth/login HTTP/1.1
+11:48:33.106 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:48:33.106 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+11:48:33.106 [main] DEBUG org.apache.http.headers - >> Content-Length: 43
+11:48:33.106 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
+11:48:33.106 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:48:33.106 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
+11:48:33.106 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:48:33.106 [main] DEBUG org.apache.http.wire -  >> "{"password":"83r5^_","username":"mor_2314"}"
+11:48:33.989 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:48:33.989 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 04:48:36 GMT[\r][\n]"
+11:48:33.989 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11:48:33.989 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+11:48:33.989 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+11:48:33.989 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+11:48:33.989 [main] DEBUG org.apache.http.wire -  << "Etag: W/"98-SBwhg9dK4L7SLtyoQhtwV7DqQ7I"[\r][\n]"
+11:48:33.989 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+11:48:33.989 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+11:48:33.989 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=d0yPWIE%2FFyJjcedqVxayfB77jQLhOsRgsEjX1uXLSdhkQofRP7jxHaUT3g3Jd8v%2FneNftkMtDRS0J4p5HPQc5bxdlx1ON5Lmrp5GkpAnXgH8IRN2hYQydzwbuEitZpUhXwo%2F"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+11:48:33.989 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+11:48:33.990 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+11:48:33.990 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b89cbffe82e3e19-SIN[\r][\n]"
+11:48:33.990 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+11:48:33.990 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+11:48:33.990 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:33.990 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:48:33.990 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:48:33.990 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 04:48:36 GMT
+11:48:33.990 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+11:48:33.990 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+11:48:33.990 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+11:48:33.990 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+11:48:33.990 [main] DEBUG org.apache.http.headers - << Etag: W/"98-SBwhg9dK4L7SLtyoQhtwV7DqQ7I"
+11:48:33.990 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+11:48:33.990 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
+11:48:33.990 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=d0yPWIE%2FFyJjcedqVxayfB77jQLhOsRgsEjX1uXLSdhkQofRP7jxHaUT3g3Jd8v%2FneNftkMtDRS0J4p5HPQc5bxdlx1ON5Lmrp5GkpAnXgH8IRN2hYQydzwbuEitZpUhXwo%2F"}],"group":"cf-nel","max_age":604800}
+11:48:33.990 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+11:48:33.990 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+11:48:33.990 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b89cbffe82e3e19-SIN
+11:48:33.990 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+11:48:33.990 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+11:48:33.990 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:48:33.990 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+11:48:33.990 [main] DEBUG org.apache.http.wire -  << "a8[\r][\n]"
+11:48:33.990 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3][0x14][0xcb]K[0xe][0x82]0[0x14][0x0][0xc0][0xbb]t/AP[0xfc][0xec]L[0x15][0xf3][0xaa]-[0x11][0xa1][0x2]K[0xa0][0x84][0x82]@[0x13]P[0xa1][0xc6][0xbb][0x1b][0xd6][0x93][0xf9][0xa2][0xa1][0xab]E[0x8b][0xf6]HL[0xa4]L[0xcf][0x99][0xf4]$[0x81]P[0xc3][0x92]I[0xe8][0xa1][0xf5][0xd7][0x19][0x6][0x7]j[0x15]qLv[0x86][0x98][0x88][0xce][0x1f] [0xbd]jF[0xae][0x93][0x8][0xe6]0[0xa4]6)hEG[0x86][0xa1][0x87][0xe6]Y[0xe6][0x18][0x1c][0x1a][0xc4]+[0x1a][0xc4][0x13]=[0x86]#kMCq[0x8e][0x87][0xd4][0xbd]-[0xa2][0xcd][0xa9][0xe9][0xde][0xae][0x93][0xb]a[0x15][0x9a][0xdd]_[0xf8]p[0xfd]X[0x89]J[0xfc][0xfc]bo[0xd5]h[0x9b][0xe8][0xf7][0x7][0x0][0x0][0xff][0xff][0x3][0x0][0x99][0xe3]h8[0x98][0x0][0x0][0x0]"
+11:48:33.990 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:33.990 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+11:48:33.990 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:33.990 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:48:33.992 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1d40f597
+11:48:33.992 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:48:33.993 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send POST HTTP request
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send POST HTTP request&amp#27;[0m                   &amp#27;[90m# starter.stepdefinitions.LoginSteps.sendPostHttpRequest()&amp#27;[0m
-05:44:47.503 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.receiveValidHttp200 - I receive valid HTTP response code 200
-05:44:47.504 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
+11:48:33.997 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.receiveValidHttp200 - I receive valid HTTP response code 200
+11:48:33.998 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 200&amp#27;[0m     &amp#27;[90m# starter.stepdefinitions.LoginSteps.receiveValidHttp200()&amp#27;[0m
-05:44:47.506 [main] INFO  - 
+11:48:34.001 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -392,11 +390,12 @@ Successful login with valid credentials
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="Failed to login with invalid credentials" classname="Login" time="1.076">
+  <testcase name="Failed to login with invalid credentials" classname="Login" time="1.115">
     <system-out><![CDATA[
 Scenario: Failed to login with invalid credentials &amp#27;[90m# src/test/resources/features/Login.feature:11&amp#27;[0m
-05:44:47.510 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Login.feature
-05:44:47.515 [main] INFO  - 
+11:48:34.020 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57057<->104.21.3.149:443 closed
+11:48:34.020 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Login.feature
+11:48:34.025 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -404,85 +403,85 @@ Scenario: Failed to login with invalid credentials &amp#27;[90m# src/test/resour
 
 Failed to login with invalid credentials(login;failed-to-login-with-invalid-credentials)
 --------------------------------------------------------------------------------
-05:44:47.530 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.setPostApiEndpoints - I set valid POST api endpoints
-05:44:47.530 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set valid POST api endpoints
+11:48:34.045 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.setPostApiEndpoints - I set valid POST api endpoints
+11:48:34.045 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set valid POST api endpoints
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set valid POST api endpoints&amp#27;[0m             &amp#27;[90m# starter.stepdefinitions.LoginSteps.setPostApiEndpoints()&amp#27;[0m
-05:44:47.535 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.sendInvalidPostHttpRequest - I send invalid password POST HTTP request
-05:44:47.538 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.sendInvalidPostHttpRequest - I set valid POST api endpoints
-05:44:47.538 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set valid POST api endpoints
-05:44:47.553 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
-05:44:47.554 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
-05:44:47.625 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
-05:44:47.625 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-05:44:47.625 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
-05:44:47.625 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-05:44:47.625 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
-05:44:47.625 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /auth/login HTTP/1.1
-05:44:47.625 [main] DEBUG org.apache.http.wire -  >> "POST /auth/login HTTP/1.1[\r][\n]"
-05:44:47.625 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
-05:44:47.625 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
-05:44:47.625 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 42[\r][\n]"
-05:44:47.625 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
-05:44:47.625 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
-05:44:47.625 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
-05:44:47.625 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-05:44:47.625 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
-05:44:47.625 [main] DEBUG org.apache.http.headers - >> POST /auth/login HTTP/1.1
-05:44:47.625 [main] DEBUG org.apache.http.headers - >> Accept: */*
-05:44:47.625 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
-05:44:47.625 [main] DEBUG org.apache.http.headers - >> Content-Length: 42
-05:44:47.625 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
-05:44:47.625 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
-05:44:47.625 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
-05:44:47.625 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-05:44:47.625 [main] DEBUG org.apache.http.wire -  >> "{"password":"83r5^","username":"mor_2314"}"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "Date: Sat, 15 Apr 2023 22:44:50 GMT[\r][\n]"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hSAoIKVCC7bRf5qEZK7GaAfTkPbTR5ZwFVYeI0qLe5hPo0gN6WfKPfm7GDJZoOEP2X%2FQsvM5C74SEgupBLE%2BvhklQwuTn%2FIWwvicP8t7s9zwQkHaug6AobhVQexbJ7DGTEbg"}],"group":"cf-nel","max_age":604800}[\r][\n]"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b87b7238ec86baa-SIN[\r][\n]"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
-05:44:48.456 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:48.457 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 401 Unauthorized
-05:44:48.457 [main] DEBUG org.apache.http.headers - << HTTP/1.1 401 Unauthorized
-05:44:48.457 [main] DEBUG org.apache.http.headers - << Date: Sat, 15 Apr 2023 22:44:50 GMT
-05:44:48.457 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
-05:44:48.457 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
-05:44:48.457 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
-05:44:48.457 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
-05:44:48.457 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
-05:44:48.457 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
-05:44:48.457 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hSAoIKVCC7bRf5qEZK7GaAfTkPbTR5ZwFVYeI0qLe5hPo0gN6WfKPfm7GDJZoOEP2X%2FQsvM5C74SEgupBLE%2BvhklQwuTn%2FIWwvicP8t7s9zwQkHaug6AobhVQexbJ7DGTEbg"}],"group":"cf-nel","max_age":604800}
-05:44:48.457 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-05:44:48.457 [main] DEBUG org.apache.http.headers - << Server: cloudflare
-05:44:48.457 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b87b7238ec86baa-SIN
-05:44:48.457 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-05:44:48.457 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
-05:44:48.457 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Authentication required
-05:44:48.457 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - fakestoreapi.com:443 requested authentication
-05:44:48.457 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Response contains no authentication challenges
-05:44:48.457 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
-05:44:48.457 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-05:44:48.458 [main] DEBUG org.apache.http.wire -  << "21[\r][\n]"
-05:44:48.458 [main] DEBUG org.apache.http.wire -  << "username or password is incorrect"
-05:44:48.458 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:48.458 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
-05:44:48.458 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:48.459 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5847010
-05:44:48.459 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
-05:44:48.575 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send invalid password POST HTTP request
+11:48:34.053 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.sendInvalidPostHttpRequest - I send invalid password POST HTTP request
+11:48:34.056 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: Login.sendInvalidPostHttpRequest - I set valid POST api endpoints
+11:48:34.057 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set valid POST api endpoints
+11:48:34.090 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
+11:48:34.090 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
+11:48:34.164 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:48:34.164 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:48:34.164 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+11:48:34.165 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:48:34.165 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:48:34.165 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: POST /auth/login HTTP/1.1
+11:48:34.165 [main] DEBUG org.apache.http.wire -  >> "POST /auth/login HTTP/1.1[\r][\n]"
+11:48:34.165 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:48:34.165 [main] DEBUG org.apache.http.wire -  >> "Content-Type: application/json[\r][\n]"
+11:48:34.165 [main] DEBUG org.apache.http.wire -  >> "Content-Length: 42[\r][\n]"
+11:48:34.165 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
+11:48:34.165 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:48:34.165 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
+11:48:34.165 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:48:34.165 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:48:34.165 [main] DEBUG org.apache.http.headers - >> POST /auth/login HTTP/1.1
+11:48:34.165 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:48:34.165 [main] DEBUG org.apache.http.headers - >> Content-Type: application/json
+11:48:34.165 [main] DEBUG org.apache.http.headers - >> Content-Length: 42
+11:48:34.165 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
+11:48:34.165 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:48:34.165 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
+11:48:34.165 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:48:34.165 [main] DEBUG org.apache.http.wire -  >> "{"password":"83r5^","username":"mor_2314"}"
+11:48:34.977 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 401 Unauthorized[\r][\n]"
+11:48:34.977 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 04:48:37 GMT[\r][\n]"
+11:48:34.977 [main] DEBUG org.apache.http.wire -  << "Content-Type: text/html; charset=utf-8[\r][\n]"
+11:48:34.977 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+11:48:34.977 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+11:48:34.977 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+11:48:34.977 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+11:48:34.977 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+11:48:34.977 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=67OsRmF1HcFRQSy8osjnpnRrmeTujdum1bjdFQDL%2FcQNrHfoYtgeO9svZvuE14D9oE26Pe%2Bne7okKgr06Qb%2BCmtnIs7qMii1j6TyidjEhe6yCuyATxsQKaOnJcHtxgPkjoCI"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+11:48:34.978 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+11:48:34.978 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+11:48:34.978 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b89cc068822467f-SIN[\r][\n]"
+11:48:34.978 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+11:48:34.978 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:34.978 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 401 Unauthorized
+11:48:34.978 [main] DEBUG org.apache.http.headers - << HTTP/1.1 401 Unauthorized
+11:48:34.978 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 04:48:37 GMT
+11:48:34.978 [main] DEBUG org.apache.http.headers - << Content-Type: text/html; charset=utf-8
+11:48:34.978 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+11:48:34.978 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+11:48:34.978 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+11:48:34.978 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+11:48:34.978 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
+11:48:34.978 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=67OsRmF1HcFRQSy8osjnpnRrmeTujdum1bjdFQDL%2FcQNrHfoYtgeO9svZvuE14D9oE26Pe%2Bne7okKgr06Qb%2BCmtnIs7qMii1j6TyidjEhe6yCuyATxsQKaOnJcHtxgPkjoCI"}],"group":"cf-nel","max_age":604800}
+11:48:34.978 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+11:48:34.978 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+11:48:34.978 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b89cc068822467f-SIN
+11:48:34.978 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+11:48:34.978 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:48:34.978 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Authentication required
+11:48:34.978 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - fakestoreapi.com:443 requested authentication
+11:48:34.978 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Response contains no authentication challenges
+11:48:34.978 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: text/html; charset=utf-8
+11:48:34.978 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:48:34.979 [main] DEBUG org.apache.http.wire -  << "21[\r][\n]"
+11:48:34.979 [main] DEBUG org.apache.http.wire -  << "username or password is incorrect"
+11:48:34.979 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:34.979 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+11:48:34.979 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:34.979 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@5847010
+11:48:34.979 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:48:35.107 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send invalid password POST HTTP request
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send invalid password POST HTTP request&amp#27;[0m   &amp#27;[90m# starter.stepdefinitions.LoginSteps.sendInvalidPostHttpRequest()&amp#27;[0m
-05:44:48.578 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.validateHttpResponseCode401 - I receive invalid HTTP response code 401
-05:44:48.579 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive invalid HTTP response code 401
+11:48:35.112 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.validateHttpResponseCode401 - I receive invalid HTTP response code 401
+11:48:35.113 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive invalid HTTP response code 401
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive invalid HTTP response code 401&amp#27;[0m    &amp#27;[90m# starter.stepdefinitions.LoginSteps.validateHttpResponseCode401()&amp#27;[0m
-05:44:48.581 [main] INFO  - 
+11:48:35.116 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -492,14 +491,14 @@ Failed to login with invalid credentials
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="View product that id number is 1" classname="Products" time="0.562">
-    <system-out><![CDATA[05:44:48.583 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Products.feature
-05:44:48.588 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@31b157a8
-05:44:48.589 [main] INFO  - Test Suite Started: Products
+  <testcase name="View product that id number is 1" classname="Products" time="1.174">
+    <system-out><![CDATA[11:48:35.118 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Products.feature
+11:48:35.124 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@31b157a8
+11:48:35.125 [main] INFO  - Test Suite Started: Products
 
 Scenario: View product that id number is 1               &amp#27;[90m# src/test/resources/features/Products.feature:6&amp#27;[0m
-05:44:48.596 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Products.feature
-05:44:48.601 [main] INFO  - 
+11:48:35.134 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Products.feature
+11:48:35.141 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -507,90 +506,87 @@ Scenario: View product that id number is 1               &amp#27;[90m# src/test/
 
 View product that id number is 1(products;view-product-that-id-number-is-1)
 --------------------------------------------------------------------------------
-05:44:48.619 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.setGetApiEndpoints - I set GET products api endpoints
-05:44:48.619 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET products api endpoints
+11:48:35.161 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.setGetApiEndpoints - I set GET products api endpoints
+11:48:35.161 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET products api endpoints
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set GET products api endpoints&amp#27;[0m                 &amp#27;[90m# starter.stepdefinitions.getProductSteps.setGetApiEndpoints()&amp#27;[0m
-05:44:48.625 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.setGetHttpRequest - I send a GET request to the products API endpoint
-05:44:48.628 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProduct.setGetHttpRequest - I set GET products api endpoints
-05:44:48.629 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET products api endpoints
-05:44:48.645 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
-05:44:48.645 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
-05:44:48.729 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57795<->104.21.3.149:443 closed
-05:44:48.730 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57793<->104.21.3.149:443 closed
-05:44:48.730 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57792<->104.21.3.149:443 closed
-05:44:48.730 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
-05:44:48.730 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-05:44:48.730 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
-05:44:48.730 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-05:44:48.730 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
-05:44:48.730 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /products/1 HTTP/1.1
-05:44:48.730 [main] DEBUG org.apache.http.wire -  >> "GET /products/1 HTTP/1.1[\r][\n]"
-05:44:48.730 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
-05:44:48.730 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
-05:44:48.730 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
-05:44:48.730 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
-05:44:48.730 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-05:44:48.730 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
-05:44:48.730 [main] DEBUG org.apache.http.headers - >> GET /products/1 HTTP/1.1
-05:44:48.730 [main] DEBUG org.apache.http.headers - >> Accept: */*
-05:44:48.730 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
-05:44:48.730 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
-05:44:48.730 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
-05:44:48.730 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-05:44:49.100 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "Date: Sat, 15 Apr 2023 22:44:51 GMT[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0bSSadpRUG6m5SBni11ehhWMQtS0A7BKNMhf%2BjXZgwtyE%2B67gJ7hU0MARNc4vnEySCqQicTRJfwrtj%2Fwy2G%2B2Ihfe2O1ElKi9mS%2FzjAobxm5pJAQ05KQPbEH%2F0AN2WtCD2hC"}],"group":"cf-nel","max_age":604800}[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b87b72a6fb44c4d-SIN[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:49.101 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-05:44:49.101 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
-05:44:49.101 [main] DEBUG org.apache.http.headers - << Date: Sat, 15 Apr 2023 22:44:51 GMT
-05:44:49.101 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
-05:44:49.101 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
-05:44:49.101 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
-05:44:49.101 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
-05:44:49.101 [main] DEBUG org.apache.http.headers - << Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
-05:44:49.101 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
-05:44:49.101 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
-05:44:49.101 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=0bSSadpRUG6m5SBni11ehhWMQtS0A7BKNMhf%2BjXZgwtyE%2B67gJ7hU0MARNc4vnEySCqQicTRJfwrtj%2Fwy2G%2B2Ihfe2O1ElKi9mS%2FzjAobxm5pJAQ05KQPbEH%2F0AN2WtCD2hC"}],"group":"cf-nel","max_age":604800}
-05:44:49.101 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-05:44:49.101 [main] DEBUG org.apache.http.headers - << Server: cloudflare
-05:44:49.101 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b87b72a6fb44c4d-SIN
-05:44:49.101 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
-05:44:49.101 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-05:44:49.101 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
-05:44:49.102 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
-05:44:49.102 [main] DEBUG org.apache.http.wire -  << "124[\r][\n]"
-05:44:49.102 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]4[0x8f]Mk[0xc3]0[0x10]D[0xff][0xca][0xb2][0x97][0xb6][0xa0][0xf8]#%[0xd0][0xe8][0x96][0x16]ri([0x85][0x9c]r[\n]"
-05:44:49.102 [main] DEBUG org.apache.http.wire -  << "BZ[0xdb][0x8a]eIH[0xeb][0x14][0x13][0xf2][0xdf][0x8b]Zr[0x9b][0xc3][0xcc]{[0xcc][\r][0xad]A[0xd9][\n]"
-05:44:49.102 [main] DEBUG org.apache.http.wire -  << "d[0xcb][0x8e]P[0xe2][0xfe][0xa2][0x9c]K[0xea]J[0x1e]V[0xb0][0xf][0xce]d[0xa5]G[0xf8][\n]"
-05:44:49.102 [main] DEBUG org.apache.http.wire -  << "[0x15][0xb4][0xf0][0xae][0xf4][0x18][0x95][0x1e][0x5][0xec]-gh7pP[0x91]C[0xcc](0&[0xab][0x9]e[0xdb]l[0xab][0xed]F[0xa0][0xa1][0xac][0x93][0x8d]l[0x83]G[0x89][0xa7]0'[0x88][0x94]:[0xd2][0xc][0x85][0x0]]H@WJ[0x8b]Q[0xb][0xcc][0x99]@y[0x3]?[0xca][0x8d][0x19][0xac][0x7][0x1e][0xa8]4(s[0x5]GVy[0x80][0xa5][0x10][0xdc][0x9f][\r][0x9e][0xe7][0x8][0x1c][0x8a][0xde]z=P~yL[0xa2]2[0x86][0xc]dGt%[0xf1][0xbf]yHP[0xa0]VL}H[0xb]J[0x9c][0xc8]?e[0xd0].[0xf0]`}[0x8f][0x2][0xed][0xa4][0xfa]r`[0x8e]Y[0xd6]u[0xa7]F[0xca][0x1c][0x12][0xa9]h+[0x1d][0xa6][0xda]N}[0xfd][0xd6]v[0xdf][0x9f]f[0xb5][0xde][0x9d][0xe][0xd5]y[0xf7]q>[0x1e][0xda]M[0xd3][0x9c][0xab]K,[0x88][0xa4][0xb8][0xb0][0xe4][0xad]$B[0xf9]Zm[0x5][0xea]0{F[0xd9][0xae][0x9b][0xfb][0xfd][0x17][0x0][0x0][0xff][0xff][0x3][0x0]hW[0xe2][0x13]l[0x1][0x0][0x0]"
-05:44:49.102 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:49.102 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
-05:44:49.102 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:49.102 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-05:44:49.103 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6ad26381
-05:44:49.103 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
-05:44:49.104 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send a GET request to the products API endpoint
+11:48:35.167 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.setGetHttpRequest - I send a GET request to the products API endpoint
+11:48:35.170 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProduct.setGetHttpRequest - I set GET products api endpoints
+11:48:35.171 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET products api endpoints
+11:48:35.189 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
+11:48:35.190 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
+11:48:35.557 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:48:35.557 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:48:35.557 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+11:48:35.557 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:48:35.557 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:48:35.557 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /products/1 HTTP/1.1
+11:48:35.557 [main] DEBUG org.apache.http.wire -  >> "GET /products/1 HTTP/1.1[\r][\n]"
+11:48:35.557 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:48:35.557 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
+11:48:35.557 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:48:35.557 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
+11:48:35.557 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:48:35.557 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:48:35.557 [main] DEBUG org.apache.http.headers - >> GET /products/1 HTTP/1.1
+11:48:35.557 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:48:35.557 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
+11:48:35.557 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:48:35.557 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
+11:48:35.557 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 04:48:38 GMT[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1AdJYjq4RfRyzqb67Cj4msJ%2FuMv3bghlHdXneR7VGdRerlXQd7HXm0H3JCKEIY5CY7v0uTZe0KZsqwTjyPKYTbGfEjW%2BQquuJWoR3QlphYeFDO%2BX0%2B68SSS8zfTOajpmfaAC"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b89cc0f3f5f4005-SIN[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:36.246 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:48:36.247 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:48:36.247 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 04:48:38 GMT
+11:48:36.247 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+11:48:36.247 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+11:48:36.247 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+11:48:36.247 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+11:48:36.247 [main] DEBUG org.apache.http.headers - << Etag: W/"16c-MMdrqY6N0sTiefLdsgtBej9eunY"
+11:48:36.247 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+11:48:36.247 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
+11:48:36.247 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1AdJYjq4RfRyzqb67Cj4msJ%2FuMv3bghlHdXneR7VGdRerlXQd7HXm0H3JCKEIY5CY7v0uTZe0KZsqwTjyPKYTbGfEjW%2BQquuJWoR3QlphYeFDO%2BX0%2B68SSS8zfTOajpmfaAC"}],"group":"cf-nel","max_age":604800}
+11:48:36.247 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+11:48:36.247 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+11:48:36.247 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b89cc0f3f5f4005-SIN
+11:48:36.247 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+11:48:36.247 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+11:48:36.247 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:48:36.247 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+11:48:36.247 [main] DEBUG org.apache.http.wire -  << "124[\r][\n]"
+11:48:36.247 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]4[0x8f]Mk[0xc3]0[0x10]D[0xff][0xca][0xb2][0x97][0xb6][0xa0][0xf8]#%[0xd0][0xe8][0x96][0x16]ri([0x85][0x9c]r[\n]"
+11:48:36.247 [main] DEBUG org.apache.http.wire -  << "BZ[0xdb][0x8a]eIH[0xeb][0x14][0x13][0xf2][0xdf][0x8b]Zr[0x9b][0xc3][0xcc]{[0xcc][\r][0xad]A[0xd9][\n]"
+11:48:36.247 [main] DEBUG org.apache.http.wire -  << "d[0xcb][0x8e]P[0xe2][0xfe][0xa2][0x9c]K[0xea]J[0x1e]V[0xb0][0xf][0xce]d[0xa5]G[0xf8][\n]"
+11:48:36.248 [main] DEBUG org.apache.http.wire -  << "[0x15][0xb4][0xf0][0xae][0xf4][0x18][0x95][0x1e][0x5][0xec]-gh7pP[0x91]C[0xcc](0&[0xab][0x9]e[0xdb]l[0xab][0xed]F[0xa0][0xa1][0xac][0x93][0x8d]l[0x83]G[0x89][0xa7]0'[0x88][0x94]:[0xd2][0xc][0x85][0x0]]H@WJ[0x8b]Q[0xb][0xcc][0x99]@y[0x3]?[0xca][0x8d][0x19][0xac][0x7][0x1e][0xa8]4(s[0x5]GVy[0x80][0xa5][0x10][0xdc][0x9f][\r][0x9e][0xe7][0x8][0x1c][0x8a][0xde]z=P~yL[0xa2]2[0x86][0xc]dGt%[0xf1][0xbf]yHP[0xa0]VL}H[0xb]J[0x9c][0xc8]?e[0xd0].[0xf0]`}[0x8f][0x2][0xed][0xa4][0xfa]r`[0x8e]Y[0xd6]u[0xa7]F[0xca][0x1c][0x12][0xa9]h+[0x1d][0xa6][0xda]N}[0xfd][0xd6]v[0xdf][0x9f]f[0xb5][0xde][0x9d][0xe][0xd5]y[0xf7]q>[0x1e][0xda]M[0xd3][0x9c][0xab]K,[0x88][0xa4][0xb8][0xb0][0xe4][0xad]$B[0xf9]Zm[0x5][0xea]0{F[0xd9][0xae][0x9b][0xfb][0xfd][0x17][0x0][0x0][0xff][0xff][0x3][0x0]hW[0xe2][0x13]l[0x1][0x0][0x0]"
+11:48:36.248 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:36.248 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+11:48:36.248 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:36.248 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:48:36.250 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@6ad26381
+11:48:36.250 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:48:36.251 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send a GET request to the products API endpoint
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to the products API endpoint&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.getProductSteps.setGetHttpRequest()&amp#27;[0m
-05:44:49.111 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.receiveValidHttp200 - I receive valid HTTP response code 200
-05:44:49.112 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
+11:48:36.258 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.receiveValidHttp200 - I receive valid HTTP response code 200
+11:48:36.258 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 200&amp#27;[0m            &amp#27;[90m# starter.stepdefinitions.LoginSteps.receiveValidHttp200()&amp#27;[0m
-05:44:49.115 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.receiveValidDataForDetailPost - I receive valid data of the post
-05:44:49.149 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data of the post
+11:48:36.261 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.receiveValidDataForDetailPost - I receive valid data of the post
+11:48:36.296 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data of the post
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data of the post&amp#27;[0m                   &amp#27;[90m# starter.stepdefinitions.getProductSteps.receiveValidDataForDetailPost()&amp#27;[0m
-05:44:49.151 [main] INFO  - 
+11:48:36.299 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -600,11 +596,11 @@ View product that id number is 1
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="View products with invalid API endpoint" classname="Products" time="0.833">
+  <testcase name="View products with invalid API endpoint" classname="Products" time="0.832">
     <system-out><![CDATA[
 Scenario: View products with invalid API endpoint      &amp#27;[90m# src/test/resources/features/Products.feature:12&amp#27;[0m
-05:44:49.157 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Products.feature
-05:44:49.162 [main] INFO  - 
+11:48:36.304 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/Products.feature
+11:48:36.309 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
@@ -612,71 +608,71 @@ Scenario: View products with invalid API endpoint      &amp#27;[90m# src/test/re
 
 View products with invalid API endpoint(products;view-products-with-invalid-api-endpoint)
 --------------------------------------------------------------------------------
-05:44:49.177 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.setInvaliApiEndpoints - I set invalid GET products api endpoints
-05:44:49.178 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set invalid GET products api endpoints
+11:48:36.326 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.setInvaliApiEndpoints - I set invalid GET products api endpoints
+11:48:36.326 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set invalid GET products api endpoints
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set invalid GET products api endpoints&amp#27;[0m       &amp#27;[90m# starter.stepdefinitions.getProductSteps.setInvaliApiEndpoints()&amp#27;[0m
-05:44:49.183 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.setInvalidGetHttpRequest - I send a GET request to an invalid API endpoint
-05:44:49.184 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProduct.setInvalidGetHttpRequest - I set invalid GET products api endpoints
-05:44:49.184 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set invalid GET products api endpoints
-05:44:49.196 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
-05:44:49.197 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
-05:44:49.271 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
-05:44:49.271 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-05:44:49.271 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
-05:44:49.271 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-05:44:49.271 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
-05:44:49.271 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /products/21 HTTP/1.1
-05:44:49.271 [main] DEBUG org.apache.http.wire -  >> "GET /products/21 HTTP/1.1[\r][\n]"
-05:44:49.271 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
-05:44:49.271 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
-05:44:49.271 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
-05:44:49.271 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
-05:44:49.271 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-05:44:49.271 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
-05:44:49.271 [main] DEBUG org.apache.http.headers - >> GET /products/21 HTTP/1.1
-05:44:49.271 [main] DEBUG org.apache.http.headers - >> Accept: */*
-05:44:49.271 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
-05:44:49.271 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
-05:44:49.271 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
-05:44:49.271 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "Date: Sat, 15 Apr 2023 22:44:52 GMT[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "Content-Length: 0[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gXM2hGYVBIadHj9GZD7ekTx5F3exukxIUtU6zYdvE%2F7JEA%2FoT7q5bBtecmkULJFHOFaSBfa5N05Mc0jTwfuBDfQYbUDeN1d0rU6JsHBwKzdlMuKoUKgyZ03X0ZNgf%2BehmKYo"}],"group":"cf-nel","max_age":604800}[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b87b72dda5c4116-SIN[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:49.972 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-05:44:49.972 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
-05:44:49.973 [main] DEBUG org.apache.http.headers - << Date: Sat, 15 Apr 2023 22:44:52 GMT
-05:44:49.973 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
-05:44:49.973 [main] DEBUG org.apache.http.headers - << Content-Length: 0
-05:44:49.973 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
-05:44:49.973 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
-05:44:49.973 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
-05:44:49.973 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
-05:44:49.973 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=gXM2hGYVBIadHj9GZD7ekTx5F3exukxIUtU6zYdvE%2F7JEA%2FoT7q5bBtecmkULJFHOFaSBfa5N05Mc0jTwfuBDfQYbUDeN1d0rU6JsHBwKzdlMuKoUKgyZ03X0ZNgf%2BehmKYo"}],"group":"cf-nel","max_age":604800}
-05:44:49.973 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-05:44:49.973 [main] DEBUG org.apache.http.headers - << Server: cloudflare
-05:44:49.973 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b87b72dda5c4116-SIN
-05:44:49.973 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-05:44:49.973 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
-05:44:49.974 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send a GET request to an invalid API endpoint
+11:48:36.330 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.setInvalidGetHttpRequest - I send a GET request to an invalid API endpoint
+11:48:36.331 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProduct.setInvalidGetHttpRequest - I set invalid GET products api endpoints
+11:48:36.331 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set invalid GET products api endpoints
+11:48:36.343 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
+11:48:36.344 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
+11:48:36.445 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:48:36.445 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:48:36.445 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+11:48:36.445 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:48:36.445 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:48:36.445 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /products/21 HTTP/1.1
+11:48:36.445 [main] DEBUG org.apache.http.wire -  >> "GET /products/21 HTTP/1.1[\r][\n]"
+11:48:36.445 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:48:36.445 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
+11:48:36.445 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:48:36.445 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
+11:48:36.445 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:48:36.445 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:48:36.445 [main] DEBUG org.apache.http.headers - >> GET /products/21 HTTP/1.1
+11:48:36.445 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:48:36.445 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
+11:48:36.445 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:48:36.445 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
+11:48:36.445 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:48:37.115 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:48:37.115 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 04:48:39 GMT[\r][\n]"
+11:48:37.116 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11:48:37.116 [main] DEBUG org.apache.http.wire -  << "Content-Length: 0[\r][\n]"
+11:48:37.116 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+11:48:37.116 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+11:48:37.116 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+11:48:37.116 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+11:48:37.116 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uRMrn7g3QtRqzokAqW28%2FL2JzJiE7Zk9mrnlmygA9fm3DWbSRgisgVnkuBZk5%2Fe6FSYv4w1nOU9uOC2f0P3NSFTWgFqLIKQA5t7tnhrk7ai6KLjXSYY2GW3RivMdh%2FnwA0AL"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+11:48:37.116 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+11:48:37.116 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+11:48:37.116 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b89cc14df6f01d1-SIN[\r][\n]"
+11:48:37.116 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+11:48:37.116 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:37.116 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:48:37.116 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:48:37.116 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 04:48:39 GMT
+11:48:37.116 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+11:48:37.116 [main] DEBUG org.apache.http.headers - << Content-Length: 0
+11:48:37.116 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+11:48:37.116 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+11:48:37.116 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+11:48:37.116 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
+11:48:37.116 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=uRMrn7g3QtRqzokAqW28%2FL2JzJiE7Zk9mrnlmygA9fm3DWbSRgisgVnkuBZk5%2Fe6FSYv4w1nOU9uOC2f0P3NSFTWgFqLIKQA5t7tnhrk7ai6KLjXSYY2GW3RivMdh%2FnwA0AL"}],"group":"cf-nel","max_age":604800}
+11:48:37.116 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+11:48:37.116 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+11:48:37.116 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b89cc14df6f01d1-SIN
+11:48:37.116 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+11:48:37.116 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:48:37.117 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send a GET request to an invalid API endpoint
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to an invalid API endpoint&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.getProductSteps.setInvalidGetHttpRequest()&amp#27;[0m
-05:44:49.980 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.receiveValidHttp200 - I receive valid HTTP response code 200
-05:44:49.980 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
+11:48:37.124 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.receiveValidHttp200 - I receive valid HTTP response code 200
+11:48:37.125 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 200&amp#27;[0m          &amp#27;[90m# starter.stepdefinitions.LoginSteps.receiveValidHttp200()&amp#27;[0m
-05:44:49.983 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.receiveNothing - I receive empty content
-05:44:49.983 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive empty content
+11:48:37.129 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.receiveNothing - I receive empty content
+11:48:37.129 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive empty content
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive empty content&amp#27;[0m                          &amp#27;[90m# starter.stepdefinitions.getProductSteps.receiveNothing()&amp#27;[0m
-05:44:49.985 [main] INFO  - 
+11:48:37.131 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -686,100 +682,103 @@ View products with invalid API endpoint
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="View number 1 user information" classname="Cart #2" time="0.716">
-    <system-out><![CDATA[05:44:49.986 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/User.feature
-05:44:49.990 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4de4b8d3
-05:44:49.991 [main] INFO  - Test Suite Started: Cart
+  <testcase name="View number 1 user information" classname="User" time="1.189">
+    <system-out><![CDATA[11:48:37.132 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/User.feature
+11:48:37.144 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57068<->104.21.3.149:443 closed
+11:48:37.145 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57064<->104.21.3.149:443 closed
+11:48:37.146 [Finalizer] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Connection 0.0.0.0:57061<->104.21.3.149:443 closed
+11:48:37.146 [main] DEBUG net.thucydides.core.steps.StepEventBus - Test suite started for story net.thucydides.core.model.Story@4eea5d88
+11:48:37.147 [main] INFO  - Test Suite Started: User
 
 Scenario: View number 1 user information             &amp#27;[90m# src/test/resources/features/User.feature:6&amp#27;[0m
-05:44:49.995 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/User.feature
-05:44:50.000 [main] INFO  - 
+11:48:37.153 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/User.feature
+11:48:37.159 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-View number 1 user information(cart;view-number-1-user-information)
+View number 1 user information(user;view-number-1-user-information)
 --------------------------------------------------------------------------------
-05:44:50.018 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUserSteps.setGetApiEndpoints - I set GET user api endpoints
-05:44:50.018 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET user api endpoints
+11:48:37.188 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUserSteps.setGetApiEndpoints - I set GET user api endpoints
+11:48:37.188 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET user api endpoints
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set GET user api endpoints&amp#27;[0m                 &amp#27;[90m# starter.stepdefinitions.getUserSteps.setGetApiEndpoints()&amp#27;[0m
-05:44:50.022 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUserSteps.setGetHttpRequest - I send a GET request to the user API endpoint
-05:44:50.023 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUser.setGetHttpRequest - I set GET user api endpoints
-05:44:50.023 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET user api endpoints
-05:44:50.035 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
-05:44:50.035 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
-05:44:50.118 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
-05:44:50.118 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-05:44:50.118 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
-05:44:50.118 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-05:44:50.118 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
-05:44:50.118 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /users/1 HTTP/1.1
-05:44:50.118 [main] DEBUG org.apache.http.wire -  >> "GET /users/1 HTTP/1.1[\r][\n]"
-05:44:50.118 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
-05:44:50.118 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
-05:44:50.118 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
-05:44:50.118 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
-05:44:50.118 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-05:44:50.118 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
-05:44:50.118 [main] DEBUG org.apache.http.headers - >> GET /users/1 HTTP/1.1
-05:44:50.118 [main] DEBUG org.apache.http.headers - >> Accept: */*
-05:44:50.118 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
-05:44:50.118 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
-05:44:50.118 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
-05:44:50.118 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "Date: Sat, 15 Apr 2023 22:44:52 GMT[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6ZQ12I1LMdwYS68nJiR%2FuEQ4GqU3w1nOqrG0WIpJxwowom%2FxPJFDhiUqz03R%2FiPfwJnknGTP9aOGxyKlmH8qYZm7M1lTlKC4hUlScp7%2FcqpfDDh%2FJRAUV2VQ%2BiPsDzviKR1g"}],"group":"cf-nel","max_age":604800}[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b87b7331c634017-SIN[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:50.659 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-05:44:50.659 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
-05:44:50.660 [main] DEBUG org.apache.http.headers - << Date: Sat, 15 Apr 2023 22:44:52 GMT
-05:44:50.660 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
-05:44:50.660 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
-05:44:50.660 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
-05:44:50.660 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
-05:44:50.660 [main] DEBUG org.apache.http.headers - << Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
-05:44:50.660 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
-05:44:50.660 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
-05:44:50.660 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6ZQ12I1LMdwYS68nJiR%2FuEQ4GqU3w1nOqrG0WIpJxwowom%2FxPJFDhiUqz03R%2FiPfwJnknGTP9aOGxyKlmH8qYZm7M1lTlKC4hUlScp7%2FcqpfDDh%2FJRAUV2VQ%2BiPsDzviKR1g"}],"group":"cf-nel","max_age":604800}
-05:44:50.660 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-05:44:50.660 [main] DEBUG org.apache.http.headers - << Server: cloudflare
-05:44:50.660 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b87b7331c634017-SIN
-05:44:50.660 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
-05:44:50.660 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-05:44:50.660 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
-05:44:50.660 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
-05:44:50.660 [main] DEBUG org.apache.http.wire -  << "e3[\r][\n]"
-05:44:50.660 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]LO[0xcb]N[0xc3]0[0x10][0xfc][0x15]4[0xe2][0xe8]DI[0xdc][0xc6][0x89]O=[0xf1][0x1b][0x95][0x89][0x97][0xd4]`{#[0xdb][0xa5][0x82][0xa8][0xff][0x8e]\![0xc4]qvv^;[0x8c][0xb5][0x89]r[0x86][0xde][0xb1][0x12]{^Lq[0x1c]+[0xf4][0xa6]@[0xa3][0x91][0xaa][0x95][0xfd]q[0x86][0x80][0xe7][0xb8]Bc[0xea][0xdb][0xfe]0[0x8f][0xb8][0xb],[0xae]|A[0xe3][0xc3][0xf9][0x85][0xd9][0x13][0x4]rIDU[0x17][0xe9][0xf6][0x94][0xd8]X[0x8][0xc4]kx[0xa5][0x4][0xad][0xc6]i[0x10][0xf8]v[0xdb][0xc2][0x96][0xa0][0xd1][0xf][0xf3]06rR[0x87][0xea][0xe5],t/@[0xc1]8[0xf][0x8d]w[0xbe][0xc4][0xd3]ZA[0xbb]p[0x80][0xc0]5S[0x8a]&[0xd0]/W[0x8d]7[0x93][0xf3][0x8d][0x93][0x85]F[0x90]S[\n]"
-05:44:50.660 [main] DEBUG org.apache.http.wire -  << "/[0xcf]5[0xed][0xf1][0xb3][0xe3][0xcd][0xa5]\[0xfe][0x9][0xea][0x0][0xf3]w[0xb1]L5t[0xbb]p|Ti[0x8e][0xaa]k[0x6]96[0xaa][0x93][0x12][0x2][0xe7][0xf3]'tw[0xff][0x1][0x0][0x0][0xff][0xff][0x3][0x0][0xee][0xd7][0xb6][0xa6] [0x1][0x0][0x0]"
-05:44:50.660 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:50.660 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
-05:44:50.660 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:50.660 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-05:44:50.661 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7f9e6167
-05:44:50.661 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
-05:44:50.661 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send a GET request to the user API endpoint
+11:48:37.194 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUserSteps.setGetHttpRequest - I send a GET request to the user API endpoint
+11:48:37.199 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUser.setGetHttpRequest - I set GET user api endpoints
+11:48:37.199 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set GET user api endpoints
+11:48:37.228 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
+11:48:37.228 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
+11:48:37.351 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:48:37.352 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:48:37.352 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+11:48:37.352 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:48:37.352 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:48:37.352 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /users/1 HTTP/1.1
+11:48:37.352 [main] DEBUG org.apache.http.wire -  >> "GET /users/1 HTTP/1.1[\r][\n]"
+11:48:37.352 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:48:37.352 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
+11:48:37.352 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:48:37.352 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
+11:48:37.352 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:48:37.352 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:48:37.352 [main] DEBUG org.apache.http.headers - >> GET /users/1 HTTP/1.1
+11:48:37.352 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:48:37.352 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
+11:48:37.352 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:48:37.352 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
+11:48:37.352 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 04:48:40 GMT[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "Transfer-Encoding: chunked[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sDSeVttCE0ssd9zuzsAfSOC8U8OMOzlKECNgbHTG8Izuh52R2hoPp9xfON2mllSPf2SmV5jjPQL%2F5a%2BTIlQYgULuAE%2BlRiccWzUm5bMbNhO0iWHNbDsFFd2Yel4hVQC8fuEF"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b89cc1adc14401d-SIN[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "Content-Encoding: gzip[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:48:38.278 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:48:38.278 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 04:48:40 GMT
+11:48:38.278 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+11:48:38.278 [main] DEBUG org.apache.http.headers - << Transfer-Encoding: chunked
+11:48:38.278 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+11:48:38.278 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+11:48:38.278 [main] DEBUG org.apache.http.headers - << Etag: W/"120-HNMhv14aQeBJetA9fBvavCZ+gdk"
+11:48:38.278 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+11:48:38.278 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
+11:48:38.278 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=sDSeVttCE0ssd9zuzsAfSOC8U8OMOzlKECNgbHTG8Izuh52R2hoPp9xfON2mllSPf2SmV5jjPQL%2F5a%2BTIlQYgULuAE%2BlRiccWzUm5bMbNhO0iWHNbDsFFd2Yel4hVQC8fuEF"}],"group":"cf-nel","max_age":604800}
+11:48:38.278 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+11:48:38.278 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+11:48:38.278 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b89cc1adc14401d-SIN
+11:48:38.278 [main] DEBUG org.apache.http.headers - << Content-Encoding: gzip
+11:48:38.278 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+11:48:38.278 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:48:38.278 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "e3[\r][\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]LO[0xcb]N[0xc3]0[0x10][0xfc][0x15]4[0xe2][0xe8]DI[0xdc][0xc6][0x89]O=[0xf1][0x1b][0x95][0x89][0x97][0xd4]`{#[0xdb][0xa5][0x82][0xa8][0xff][0x8e]\![0xc4]qvv^;[0x8c][0xb5][0x89]r[0x86][0xde][0xb1][0x12]{^Lq[0x1c]+[0xf4][0xa6]@[0xa3][0x91][0xaa][0x95][0xfd]q[0x86][0x80][0xe7][0xb8]Bc[0xea][0xdb][0xfe]0[0x8f][0xb8][0xb],[0xae]|A[0xe3][0xc3][0xf9][0x85][0xd9][0x13][0x4]rIDU[0x17][0xe9][0xf6][0x94][0xd8]X[0x8][0xc4]kx[0xa5][0x4][0xad][0xc6]i[0x10][0xf8]v[0xdb][0xc2][0x96][0xa0][0xd1][0xf][0xf3]06rR[0x87][0xea][0xe5],t/@[0xc1]8[0xf][0x8d]w[0xbe][0xc4][0xd3]ZA[0xbb]p[0x80][0xc0]5S[0x8a]&[0xd0]/W[0x8d]7[0x93][0xf3][0x8d][0x93][0x85]F[0x90]S[\n]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "/[0xcf]5[0xed][0xf1][0xb3][0xe3][0xcd][0xa5]\[0xfe][0x9][0xea][0x0][0xf3]w[0xb1]L5t[0xbb]p|Ti[0x8e][0xaa]k[0x6]96[0xaa][0x93][0x12][0x2][0xe7][0xf3]'tw[0xff][0x1][0x0][0x0][0xff][0xff][0x3][0x0][0xee][0xd7][0xb6][0xa6] [0x1][0x0][0x0]"
+11:48:38.278 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:38.280 [main] DEBUG org.apache.http.wire -  << "0[\r][\n]"
+11:48:38.280 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:38.280 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:48:38.281 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@7f9e6167
+11:48:38.281 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:48:38.282 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send a GET request to the user API endpoint
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to the user API endpoint&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.getUserSteps.setGetHttpRequest()&amp#27;[0m
-05:44:50.667 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.receiveValidHttp200 - I receive valid HTTP response code 200
-05:44:50.667 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
+11:48:38.289 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.receiveValidHttp200 - I receive valid HTTP response code 200
+11:48:38.289 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 200&amp#27;[0m        &amp#27;[90m# starter.stepdefinitions.LoginSteps.receiveValidHttp200()&amp#27;[0m
-05:44:50.670 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUserSteps.receiveValidDataForDetailUser - I receive valid data of the user
-05:44:50.705 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data of the user
+11:48:38.292 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUserSteps.receiveValidDataForDetailUser - I receive valid data of the user
+11:48:38.333 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid data of the user
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive valid data of the user&amp#27;[0m               &amp#27;[90m# starter.stepdefinitions.getUserSteps.receiveValidDataForDetailUser()&amp#27;[0m
-05:44:50.706 [main] INFO  - 
+11:48:38.336 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
@@ -789,90 +788,90 @@ View number 1 user information
 ----------------------------------------------------------------------
 ]]></system-out>
   </testcase>
-  <testcase name="View user with invalid API endpoint" classname="Cart #2" time="0.948">
+  <testcase name="View user with invalid API endpoint" classname="User" time="0.684">
     <system-out><![CDATA[
 Scenario: View user with invalid API endpoint               &amp#27;[90m# src/test/resources/features/User.feature:12&amp#27;[0m
-05:44:50.712 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/User.feature
-05:44:50.715 [main] INFO  - 
+11:48:38.341 [main] DEBUG io.cucumber.core.plugin.SerenityReporter - Running feature from file:///C:/Users/WINDOWS%2010/Documents/GitHub/QE_Andira_Ms/Code_Competence_02/alta/src/test/resources/features/User.feature
+11:48:38.345 [main] INFO  - 
   _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
  |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
    | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
    |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
 
-View user with invalid API endpoint(cart;view-user-with-invalid-api-endpoint)
+View user with invalid API endpoint(user;view-user-with-invalid-api-endpoint)
 --------------------------------------------------------------------------------
-05:44:50.727 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUserSteps.setInvaliApiEndpoints - I set invalid GET user api endpoints
-05:44:50.727 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set invalid GET user api endpoints
+11:48:38.360 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUserSteps.setInvaliApiEndpoints - I set invalid GET user api endpoints
+11:48:38.361 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set invalid GET user api endpoints
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI set invalid GET user api endpoints&amp#27;[0m                &amp#27;[90m# starter.stepdefinitions.getUserSteps.setInvaliApiEndpoints()&amp#27;[0m
-05:44:50.731 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUserSteps.setInvalidGetUserHttpRequest - I send a GET user request to an invalid API endpoint
-05:44:50.732 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUser.setInvalidGetUserHttpRequest - I set invalid GET user api endpoints
-05:44:50.732 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set invalid GET user api endpoints
-05:44:50.743 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
-05:44:50.743 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
-05:44:50.815 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
-05:44:50.815 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
-05:44:50.815 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
-05:44:50.815 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
-05:44:50.815 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
-05:44:50.815 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /users/11 HTTP/1.1
-05:44:50.815 [main] DEBUG org.apache.http.wire -  >> "GET /users/11 HTTP/1.1[\r][\n]"
-05:44:50.815 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
-05:44:50.815 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
-05:44:50.815 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
-05:44:50.815 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
-05:44:50.815 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
-05:44:50.815 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
-05:44:50.815 [main] DEBUG org.apache.http.headers - >> GET /users/11 HTTP/1.1
-05:44:50.815 [main] DEBUG org.apache.http.headers - >> Accept: */*
-05:44:50.815 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
-05:44:50.815 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
-05:44:50.815 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
-05:44:50.815 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "Date: Sat, 15 Apr 2023 22:44:53 GMT[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "Content-Length: 4[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "Etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7liBRV2x4T68tJGNsEjJ1auNqQP1%2FfMd5es70JdGHoJEsTuJ%2BPXkLgv4TeyyxZSjgmgVTtGlbLA6qKTPcwIW05xCwhpLOBie9GYfJ%2B%2BoClfmebamY9KWMXXh0Zn2Lbg79ZsL"}],"group":"cf-nel","max_age":604800}[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b87b73778446bd0-SIN[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
-05:44:51.641 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
-05:44:51.641 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
-05:44:51.641 [main] DEBUG org.apache.http.headers - << Date: Sat, 15 Apr 2023 22:44:53 GMT
-05:44:51.641 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
-05:44:51.641 [main] DEBUG org.apache.http.headers - << Content-Length: 4
-05:44:51.641 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
-05:44:51.641 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
-05:44:51.641 [main] DEBUG org.apache.http.headers - << Etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
-05:44:51.641 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
-05:44:51.641 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
-05:44:51.641 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=7liBRV2x4T68tJGNsEjJ1auNqQP1%2FfMd5es70JdGHoJEsTuJ%2BPXkLgv4TeyyxZSjgmgVTtGlbLA6qKTPcwIW05xCwhpLOBie9GYfJ%2B%2BoClfmebamY9KWMXXh0Zn2Lbg79ZsL"}],"group":"cf-nel","max_age":604800}
-05:44:51.641 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
-05:44:51.641 [main] DEBUG org.apache.http.headers - << Server: cloudflare
-05:44:51.642 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b87b73778446bd0-SIN
-05:44:51.642 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
-05:44:51.642 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
-05:44:51.642 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
-05:44:51.642 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
-05:44:51.643 [main] DEBUG org.apache.http.wire -  << "null"
-05:44:51.643 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4e3a6c83
-05:44:51.643 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
-05:44:51.643 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send a GET user request to an invalid API endpoint
+11:48:38.365 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUserSteps.setInvalidGetUserHttpRequest - I send a GET user request to an invalid API endpoint
+11:48:38.366 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getUser.setInvalidGetUserHttpRequest - I set invalid GET user api endpoints
+11:48:38.367 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I set invalid GET user api endpoints
+11:48:38.381 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Get connection for route {s}->https://fakestoreapi.com:443
+11:48:38.381 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator - Connecting to fakestoreapi.com:443
+11:48:38.470 [main] DEBUG org.apache.http.client.protocol.RequestAddCookies - CookieSpec selected: ignoreCookies
+11:48:38.470 [main] DEBUG org.apache.http.client.protocol.RequestAuthCache - Auth cache not set in the context
+11:48:38.470 [main] DEBUG org.apache.http.client.protocol.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+11:48:38.470 [main] DEBUG org.apache.http.client.protocol.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+11:48:38.470 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Attempt 1 to execute request
+11:48:38.470 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Sending request: GET /users/11 HTTP/1.1
+11:48:38.470 [main] DEBUG org.apache.http.wire -  >> "GET /users/11 HTTP/1.1[\r][\n]"
+11:48:38.470 [main] DEBUG org.apache.http.wire -  >> "Accept: */*[\r][\n]"
+11:48:38.470 [main] DEBUG org.apache.http.wire -  >> "Host: fakestoreapi.com[\r][\n]"
+11:48:38.470 [main] DEBUG org.apache.http.wire -  >> "Connection: Keep-Alive[\r][\n]"
+11:48:38.470 [main] DEBUG org.apache.http.wire -  >> "User-Agent: Apache-HttpClient/4.5.13 (Java/15)[\r][\n]"
+11:48:38.470 [main] DEBUG org.apache.http.wire -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+11:48:38.470 [main] DEBUG org.apache.http.wire -  >> "[\r][\n]"
+11:48:38.470 [main] DEBUG org.apache.http.headers - >> GET /users/11 HTTP/1.1
+11:48:38.470 [main] DEBUG org.apache.http.headers - >> Accept: */*
+11:48:38.470 [main] DEBUG org.apache.http.headers - >> Host: fakestoreapi.com
+11:48:38.470 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+11:48:38.470 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-HttpClient/4.5.13 (Java/15)
+11:48:38.470 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "HTTP/1.1 200 OK[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "Date: Sun, 16 Apr 2023 04:48:41 GMT[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "Content-Type: application/json; charset=utf-8[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "Content-Length: 4[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "Connection: keep-alive[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "Access-Control-Allow-Origin: *[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "Etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "X-Powered-By: Express[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "CF-Cache-Status: DYNAMIC[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NmTlmM2X38VxzmWq7YiPT8Asm5lvxpTlYaLZV0ysdYXHGNxNzA2GFcFRoXxDZHg5TTn7n5xZwTorMHMPc%2BYxf4vxNgNCzkuXVGU4xVWDJBcX9AEqS1nG6GY2jhteDfZrKBgj"}],"group":"cf-nel","max_age":604800}[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "Server: cloudflare[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "CF-RAY: 7b89cc217fe740f0-SIN[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.wire -  << "[\r][\n]"
+11:48:39.005 [main] DEBUG org.apache.http.impl.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+11:48:39.005 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+11:48:39.005 [main] DEBUG org.apache.http.headers - << Date: Sun, 16 Apr 2023 04:48:41 GMT
+11:48:39.005 [main] DEBUG org.apache.http.headers - << Content-Type: application/json; charset=utf-8
+11:48:39.005 [main] DEBUG org.apache.http.headers - << Content-Length: 4
+11:48:39.005 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+11:48:39.005 [main] DEBUG org.apache.http.headers - << Access-Control-Allow-Origin: *
+11:48:39.005 [main] DEBUG org.apache.http.headers - << Etag: W/"4-K+iMpCQsduglOsYkdIUQZQMtaDM"
+11:48:39.005 [main] DEBUG org.apache.http.headers - << X-Powered-By: Express
+11:48:39.005 [main] DEBUG org.apache.http.headers - << CF-Cache-Status: DYNAMIC
+11:48:39.005 [main] DEBUG org.apache.http.headers - << Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NmTlmM2X38VxzmWq7YiPT8Asm5lvxpTlYaLZV0ysdYXHGNxNzA2GFcFRoXxDZHg5TTn7n5xZwTorMHMPc%2BYxf4vxNgNCzkuXVGU4xVWDJBcX9AEqS1nG6GY2jhteDfZrKBgj"}],"group":"cf-nel","max_age":604800}
+11:48:39.005 [main] DEBUG org.apache.http.headers - << NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+11:48:39.005 [main] DEBUG org.apache.http.headers - << Server: cloudflare
+11:48:39.005 [main] DEBUG org.apache.http.headers - << CF-RAY: 7b89cc217fe740f0-SIN
+11:48:39.005 [main] DEBUG org.apache.http.headers - << alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+11:48:39.005 [main] DEBUG org.apache.http.impl.client.DefaultHttpClient - Connection can be kept alive indefinitely
+11:48:39.006 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsing response as: application/json; charset=utf-8
+11:48:39.006 [main] DEBUG io.restassured.internal.RestAssuredHttpBuilder - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+11:48:39.007 [main] DEBUG org.apache.http.wire -  << "null"
+11:48:39.007 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4e3a6c83
+11:48:39.007 [main] DEBUG org.apache.http.impl.conn.BasicClientConnectionManager - Connection can be kept alive indefinitely
+11:48:39.008 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I send a GET user request to an invalid API endpoint
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET user request to an invalid API endpoint&amp#27;[0m &amp#27;[90m# starter.stepdefinitions.getUserSteps.setInvalidGetUserHttpRequest()&amp#27;[0m
-05:44:51.647 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.receiveValidHttp200 - I receive valid HTTP response code 200
-05:44:51.648 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
+11:48:39.012 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: LoginSteps.receiveValidHttp200 - I receive valid HTTP response code 200
+11:48:39.013 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive valid HTTP response code 200
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI receive valid HTTP response code 200&amp#27;[0m               &amp#27;[90m# starter.stepdefinitions.LoginSteps.receiveValidHttp200()&amp#27;[0m
-05:44:51.653 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.receiveNothing - I receive empty content
-05:44:51.653 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive empty content
+11:48:39.018 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STARTING STEP: getProductSteps.receiveNothing - I receive empty content
+11:48:39.018 [main] DEBUG net.thucydides.core.steps.StepInterceptor - STEP DONE: I receive empty content
   &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI receive empty content&amp#27;[0m                               &amp#27;[90m# starter.stepdefinitions.getProductSteps.receiveNothing()&amp#27;[0m
-05:44:51.655 [main] INFO  - 
+11:48:39.020 [main] INFO  - 
   _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
  |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
    | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |

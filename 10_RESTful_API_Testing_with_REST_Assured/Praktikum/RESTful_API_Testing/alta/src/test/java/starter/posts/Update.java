@@ -29,22 +29,33 @@ public class Update {
                 .put(setPutApiEndpoints());
     }
 
+
     @Step("I receive valid data for update posts")
     public void validateUpdateUser() {
-        restAssuredThat(response -> response.body("'title'", equalTo("my name is andira ms")));
-        restAssuredThat(response -> response.body("'body'", equalTo("Ini sudah diubah")));
+        restAssuredThat(response -> response.body("title", equalTo("my name is andira ms")));
+        restAssuredThat(response -> response.body("body", equalTo("Ini sudah diubah")));
     }
 
     //// Negative
 
     @Step("I set PUT to invalid api endpoints")
     public String setPutInvalidApiEndpoints() {
-        return url + "posts/101";
+        return url + "post/101";
+    }
+
+    @Step("I send PUT HTTP request2")
+    public void sendPutHttpRequest2() {
+        JSONObject requestBody = new JSONObject();
+        requestBody.put("title", "my name is andira ms");
+        requestBody.put("body", "Ini sudah diubah");
+
+        SerenityRest.given().header("Content-Type", "application/json").body(requestBody.toJSONString())
+                .put(setPutInvalidApiEndpoints());
     }
 
     @Step("I receive invalid HTTP response code 500")
     public void receiveHttpResponseCode500() {
-        restAssuredThat(response -> response.statusCode(200));
+        restAssuredThat(response -> response.statusCode(404));
     }
 
 }

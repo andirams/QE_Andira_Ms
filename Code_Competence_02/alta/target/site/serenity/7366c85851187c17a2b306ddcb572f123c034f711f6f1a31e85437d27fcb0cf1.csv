@@ -1,3 +1,6 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Cart","View cart that id number is 1","SUCCESS","2023-04-16T05:44:42.3019415+07:00[Asia/Bangkok]","0.0","3.79"
-"Login","Failed to login with invalid credentials","SUCCESS","2023-04-16T05:44:47.5155849+07:00[Asia/Bangkok]","0.0","1.07"
+"Cart","View cart with invalid API endpoint","SUCCESS","2023-04-16T11:48:31.8854825+07:00[Asia/Bangkok]","0.0","1.01"
+"Login","Successful login with valid credentials","SUCCESS","2023-04-16T11:48:32.9244705+07:00[Asia/Bangkok]","0.0","1.08"
+"Login","Failed to login with invalid credentials","SUCCESS","2023-04-16T11:48:34.025293+07:00[Asia/Bangkok]","0.0","1.09"
+"Products","View product that id number is 1","SUCCESS","2023-04-16T11:48:35.141311+07:00[Asia/Bangkok]","0.0","1.16"
+"User","View number 1 user information","SUCCESS","2023-04-16T11:48:37.1592946+07:00[Asia/Bangkok]","0.0","1.18"

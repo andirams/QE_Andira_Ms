@@ -121,6 +121,11 @@ public class PostsSteps {
         update.sendPutHttpRequest();
     }
 
+    @When("I send PUT HTTP request2")
+    public void sendPutHttpRequest2() {
+        update.sendPutHttpRequest2();
+    }
+
     @And("I receive valid data for update posts")
     public void validateUpdateUser() {
         update.validateUpdateUser();
@@ -158,6 +163,16 @@ public class PostsSteps {
     @Given("I set DELETE to invalid api endpoints")
     public void setDeleteInvalidApiEndpoints() {
         delete.setDeleteInvalidApiEndpoints();
+    }
+
+    @When("I send invalid DELETE HTTP request")
+    public void sendDeleteInvalidApiEndpoints2() {
+        delete.sendDeleteInvalidApiEndpointsRequest2();
+    }
+
+    @Then("I receive invalid HTTP response code 404")
+    public void receiveHttpResponseCode404() {
+        delete.validateHttpResponseCode404();
     }
 
 }

@@ -1,3 +1,3 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login","Successful login with valid credentials","SUCCESS","2023-04-16T05:44:46.8168664+07:00[Asia/Bangkok]","0.0","0.69"
-"Login","Failed to login with invalid credentials","SUCCESS","2023-04-16T05:44:47.5155849+07:00[Asia/Bangkok]","0.0","1.07"
+"Login","Successful login with valid credentials","SUCCESS","2023-04-16T11:48:32.9244705+07:00[Asia/Bangkok]","0.0","1.08"
+"Login","Failed to login with invalid credentials","SUCCESS","2023-04-16T11:48:34.025293+07:00[Asia/Bangkok]","0.0","1.09"

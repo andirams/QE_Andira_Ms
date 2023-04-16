@@ -1,4 +1,4 @@
-Feature: Cart
+Feature: User
     As a user
     I want to view my account information
     So that I can update my profile and view my orders
