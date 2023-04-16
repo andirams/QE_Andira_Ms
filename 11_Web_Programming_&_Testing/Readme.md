@@ -39,8 +39,8 @@ HTML adalah singkatan dari Hypertext Markup Language, HTML ini berguna sebagai s
 
 ## Styling pada Paragraph
 
-- <!--> <strong> --> <strong> untuk membuat teks tebal </strong>
-- <!--> <em> --> <em> untuk membuat teks miring </em>
+- <!--> <strong> <strong> untuk membuat teks tebal </strong>
+- <!--> <em>  <em> untuk membuat teks miring </em>
 - <!--> <s> --> <s> untuk membuat teks garis coret </s>
 - <!--> <br> --> <br> untuk line break membuat garis baru </br>
 
