@@ -41,7 +41,7 @@ HTML adalah singkatan dari Hypertext Markup Language, HTML ini berguna sebagai s
 
 - <strong> untuk membuat teks tebal
 - <em> untuk membuat teks miring
-- <s> untuk membuat teks garis coret <s>
+- <s> untuk membuat teks garis coret </s>
 - <br> untuk line break membuat garis baru
 
 ## List HTML
